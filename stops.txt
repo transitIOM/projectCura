@@ -1,0 +1,4 @@
+stop_id,stop_name,tts_stop_name,stop_lat,stop_lon,location_type,wheelchair_boarding,
+891085001801,"Nobles Hospital, Entrance","Nobles Hospital, Entrance",54.17249298095703,-4.50611686706543,0,
+891085001806,Hospice Isle of Man,Hospice Isle of Man,54.1734504699707,-4.5037407875061035,0,
+891085013108,"Cronkbourne, Shelter","Cronkbourne, Shelter",54.168949127197266,-4.4968132972717285,0,
