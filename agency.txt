@@ -1,2 +1,0 @@
-agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url
-BV,Bus Vannin,http://www.bus.im,Europe/Isle_of_Man,en-GB,01624 662525,https://www.iombusandrail.im/fares-and-go-cards/bus-fares/
