@@ -1,0 +1,10 @@
+# https://dart.dev/guides/libraries/private-files
+# Created by `dart pub`
+.dart_tool/
+.packages
+.pub/
+build/
+
+# User specifically requested:
+bin/
+new_stops_requests.txt
