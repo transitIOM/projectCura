@@ -4,7 +4,6 @@
 .packages
 .pub/
 build/
-
-# User specifically requested:
 bin/
 new_stops_requests.txt
+temp_stops.txt
