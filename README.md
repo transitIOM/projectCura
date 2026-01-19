@@ -1,2 +1,1 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+![](https://github.com/user-attachments/assets/7b02c861-0e44-4d8b-8425-4b1e3b038889)
