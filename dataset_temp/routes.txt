@@ -1,0 +1,52 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color,route_sort_order,network_id
+3,BV,3,"Douglas - Laxey - Ramsey",,3,,e08ebe,FFFFFF,1,1
+3a,BV,3a,"Douglas - Laxey - Ramsey",,3,,e08ebe,FFFFFF,2,1
+3b,BV,3b,"Laxey - Ramsey",,3,,e08ebe,FFFFFF,3,1
+N3,BV,N3,"Douglas - Laxey - Ramsey",,3,,e08ebe,FFFFFF,4,1
+X3,BV,X3,"Douglas - Ramsey",,3,,e08ebe,FFFFFF,5,1
+1,BV,1,"Douglas - Airport - Castletown - Port Erin",,3,,cc3531,FFFFFF,6,2
+1a,BV,1a,"Douglas - Airport - Castletown - Port Erin",,3,,cc3531,FFFFFF,7,2
+1h,BV,1h,"Port Erin - Airport - Douglas - Hospital",,3,,cc3531,FFFFFF,8,2
+N1,BV,N1,"Douglas - Castletown - Port Erin",,3,,cc3531,FFFFFF,9,2
+2,BV,2,"Douglas - Airport - Castletown - Port Erin",,3,,cc3531,FFFFFF,10,2
+2a,BV,2a,"Douglas - Airport - Castletown - Port Erin",,3,,cc3531,FFFFFF,11,2
+11,BV,11,"Port Erin - Castletown - Douglas - Birch Hill",,3,,cc3531,FFFFFF,12,2
+11a,BV,11a,"Port Erin - Castletown - Douglas - Birch Hill",,3,,cc3531,FFFFFF,13,2
+12,BV,12,"Birch Hill - Douglas - Castletown - Port Erin",,3,,cc3531,FFFFFF,14,2
+12a,BV,12a,"Birch Hill - Douglas - Castletown - Port Erin",,3,,cc3531,FFFFFF,15,2
+8,BV,8,"Peel - Foxdale - The Sound",,3,,688a16,FFFFFF,16,2
+8s,BV,8s,"Peel - Foxdale - The Sound",,3,,688a16,FFFFFF,17,2
+29,BV,29,"Douglas - Port Soderick",,3,,b28632,FFFFFF,18,2
+5,BV,5,"Douglas - Peel - Ramsey",,3,,c163ca,FFFFFF,19,3
+5a,BV,5a,"Douglas - Peel",,3,,c163ca,FFFFFF,20,3
+5c,BV,5c,"Douglas - Peel - Ramsey",,3,,c163ca,FFFFFF,21,3
+5j,BV,5j,"Douglas - Peel - Jurby - Ramsey",,3,,c163ca,FFFFFF,22,3
+N5,BV,N5,"Douglas - Peel",,3,,c163ca,FFFFFF,23,3
+6,BV,6,"Douglas - Peel",,3,,c163ca,FFFFFF,24,3
+6a,BV,6a,"Douglas - Peel - Ramsey",,3,,c163ca,FFFFFF,25,3
+6c,BV,6c,"Douglas - Peel - Ramsey",,3,,c163ca,FFFFFF,26,3
+6f,BV,6f,"Peel - Foxdale - Douglas",,3,,c163ca,FFFFFF,27,3
+4,BV,4,"Douglas - Foxdale - Peel",,3,,4ba6d4,FFFFFF,28,3
+4b,BV,4b,"Douglas - Foxdale - Peel",,3,,4ba6d4,FFFFFF,29,3
+4n,BV,4n,"Douglas - Foxdale - Niarbyl",,3,,4ba6d4,FFFFFF,30,3
+14,BV,14,"Douglas - Foxdale - Castletown",,3,,4ba6d4,FFFFFF,31,3
+14b,BV,14b,"Douglas - Ballaughton - Business Park",,3,,4ba6d4,FFFFFF,32,3
+14c,BV,14c,"Douglas - Ballaughton - Business Park",,3,,4ba6d4,FFFFFF,33,3
+15,BV,15,"Douglas - Onchan - Groudle",,3,,7bc9e6,FFFFFF,34,4
+21,BV,21,"Douglas - Pulrose - Farm Hill - Douglas",,3,,de906f,FFFFFF,35,4
+21b,BV,21b,"Douglas - Farm Hill - Business Park",,3,,de906f,FFFFFF,36,4
+21h,BV,21h,"Douglas - Farm Hill - Hospital",,3,,de906f,FFFFFF,37,4
+22,BV,22,"Douglas - Willaston - Birch Hill",,3,,0d8645,FFFFFF,38,4
+22a,BV,22a,"Douglas - Willaston - Birch Hill",,3,,0d8645,FFFFFF,39,4
+22h,BV,22h,"Douglas - Birch Hill - Hospital",,3,,0d8645,FFFFFF,40,4
+25,BV,25,"Douglas - Birch Hill - Willaston",,3,,0d8645,FFFFFF,41,4
+25h,BV,25h,"Douglas - Birch Hill - Hospital",,3,,0d8645,FFFFFF,42,4
+16,BV,16,"Ramsey - Maughold",,3,,32b4a9,FFFFFF,43,5
+16b,BV,16b,"Ramsey - Maughold",,3,,32b4a9,FFFFFF,44,5
+16d,BV,16d,"Ramsey - Glen Mona",,3,,32b4a9,FFFFFF,45,5
+20,BV,20,"Ramsey - Andreas - Bride - Ramsey",,3,,32b4a9,FFFFFF,46,5
+20a,BV,20a,"Ramsey - Bride - Andreas - Ramsey",,3,,1f93f1,FFFFFF,47,5
+17k,BV,17k,"Ramsey - Jurby - Bride - Ramsey",,3,,e6730f,FFFFFF,48,5
+18a,BV,18a,"Ramsey - Andreas - Jurby - Ramsey",,3,,e6730f,FFFFFF,49,5
+18k,BV,18k,"Ramsey - Bride - Jurby - Ramsey",,3,,e6730f,FFFFFF,50,5
+19c,BV,19c,"Ramsey - Jurby - Ramsey",,3,,7a7986,FFFFFF,51,5

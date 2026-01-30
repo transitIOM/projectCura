@@ -1,1 +1,2 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color,route_sort_order
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color,route_sort_order,network_id
+1,BV,1,"Douglas - Airport - Castletown - Port Erin",,3,,cc3531,FFFFFF,6,2
