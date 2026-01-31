@@ -5,6 +5,7 @@ stop_id,stop_name,tts_stop_name,stop_lat,stop_lon,location_type,wheelchair_board
 891085013114,"Cronkbourne, Cedar Walk","Kronk-born, Cedar Walk",54.169700622558594,-4.49306058883667,4,
 891085003120,"Watterson Lane, Reayrt-Y-Sheer","Watterson Lane, Ree-ert-uh-Sheer",54.17177200317383,-4.4872612953186035,4,
 891085003124,"Watterson Lane, Cronk-Y-Berry","Watterson Lane, Kronk-uh-Berry",54.17658233642578,-4.48061990737915,4,
+891085003122,"Watterson Lane, Cemetary","Watterson Lane, Cemetary",54.174152,-4.484254,4,
 891085013401,"The Cat With No Tail","The Cat With No Tail",54.178955078125,-4.478339672088623,0,
 891085013403,"Campion Way Shelter","Campion Way Shelter",54.179420471191406,-4.476466655731201,0,
 891085013405,"Hailwood Avenue No.10","Hailwood Avenue No.10",54.17752456665039,-4.472858905792236,0,
