@@ -1,0 +1,159 @@
+# Project Cura - Dataset Documentation (LLMS)
+
+## Dataset Type
+This project uses **GTFS (General Transit Feed Specification)** format - a standardized data format for public transit schedules and associated geographic information.
+
+---
+
+## GTFS File Structure
+
+### Core Files
+
+| File | Purpose |
+|------|---------|
+| `agency.txt` | Transit agency information |
+| `stops.txt` | Bus stop locations and metadata |
+| `routes.txt` | Bus routes and their properties |
+| `trips.txt` | Individual trips/runs for each route |
+| `stop_times.txt` | Detailed timing for each stop on each trip |
+| `calendar.txt` | Service schedules (weekly patterns) |
+| `calendar_dates.txt` | Service exceptions (holidays, special events) |
+
+### Custom/Extended Files
+
+| File | Purpose |
+|------|---------|
+| `networks.txt` | Network groupings for route categorization |
+| `route_networks.txt` | Maps network IDs to route IDs |
+
+---
+
+## ID Formatting Conventions
+
+### route_id
+- Format: Alphanumeric string matching the route's public designation
+- Examples: `1`, `1a`, `1h`, `N1`, `3`, `3b`, `X3`
+- Used as primary identifier across trips, routes, and route_networks files
+
+### service_id
+- Format: Code representing service schedule pattern
+- Current values:
+  - `MF` - Monday to Friday only
+  - `MS` - Monday to Saturday
+  - `SPH` - Sunday/Public Holiday
+- Date range format: `YYYYMMDD` (e.g., `20260101` to `20261231`)
+
+### trip_id
+- Format: `{route_id}_{service_id}_{departure_time}`
+- Examples:
+  - `1_SPH_0750` - Route 1, Sunday service, departs 07:50
+  - `1_MF_0747` - Route 1, Monday-Friday, departs 07:47
+  - `1_MS_0851` - Route 1, Monday-Saturday, departs 08:51
+- Time format: `HHMM` in 24-hour format
+
+### stop_id
+- Format: 12-digit numeric code
+- Example: `891085001801` (Nobles Hospital Entrance)
+- Includes coordinates (lat/lon) and wheelchair accessibility info
+
+### stop_sequence
+- Format: Sequential integer starting from 1
+- Defines order of stops within a trip
+
+### network_id
+- Format: Integer 1-5
+- Corresponds to "Picker Indexing" categories for route grouping
+- Maps multiple routes together for UI organization
+
+### agency_id
+- Value: `BV` (Bus Vannin)
+- Fixed identifier for the transit agency
+
+---
+
+## Field-Specific Notes
+
+### times.txt
+- `arrival_time` / `departure_time`: Format `HH:MM:SS` (24-hour)
+- `timepoint`: Indicates if stop is a timepoint (0 or 1)
+
+### routes.txt
+- `route_type`: Always `3` (Bus)
+- `route_color`: Hex color without `#` prefix (e.g., `cc3531`)
+- `route_text_color`: Typically `FFFFFF` (white)
+- `route_sort_order`: Integer for display ordering
+
+### stops.txt
+- `location_type`: `0` for stop, `4` for station/board point
+- `wheelchair_boarding`: `0` or empty
+- `tts_stop_name`: Pronunciation guide for Manx place names
+
+---
+
+## Scripting Guidelines
+
+### Language
+- **All scripts must be written in Dart**
+
+### Location
+- **All scripts must be placed in the `lib/` folder**
+
+### Examples
+- `lib/generate_routes.dart` - Generates routes.txt from JSON configs
+- `lib/stop_scraper.dart` - Scrapes stop information
+- `lib/process_stops.dart` - Processes stop data
+- `lib/add_sunday_stops.dart` - Adds Sunday service stops
+
+---
+
+## Data Modification Guidelines
+
+### CRITICAL: Backup Before Destructive Work
+- **ALWAYS create a backup of the dataset before any destructive operations**
+- Suggested backup command:
+  ```bash
+  cp -r dataset dataset_backup_YYYYMMDD
+  ```
+
+### Appending vs Replacing
+- **APPEND new data to existing files** - do not replace unless explicitly required
+- This preserves existing data and allows for incremental updates
+
+### CSV Format
+- All files use standard CSV format with comma separators
+- Headers on line 1
+- Text fields containing commas should be quoted: `"Douglas - Airport - Castletown"`
+
+---
+
+## File Paths
+
+```
+projectCura/
+├── dataset/              # GTFS data files
+│   ├── agency.txt
+│   ├── stops.txt
+│   ├── routes.txt
+│   ├── trips.txt
+│   ├── stop_times.txt
+│   ├── calendar.txt
+│   ├── calendar_dates.txt
+│   ├── networks.txt
+│   └── route_networks.txt
+└── lib/                 # Dart scripts
+    ├── generate_routes.dart
+    ├── stop_scraper.dart
+    ├── process_stops.dart
+    └── add_sunday_stops.dart
+```
+
+---
+
+## Additional Notes
+
+- Timezone: `Europe/Isle_of_Man`
+- Language: `en-GB`
+- Agency: Bus Vannin (BV)
+- Service dates currently cover: 2026-01-01 to 2026-12-31
+
+When adding new routes or trips, maintain consistency with existing naming conventions and ensure all cross-references (trip_id ↔ route_id, route_id ↔ network_id) remain valid.
