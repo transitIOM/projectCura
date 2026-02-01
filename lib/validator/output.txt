@@ -1,9 +1,0 @@
-
-=== Validation Results ===
-DEPARTURE BEFORE ARRIVAL in trip_id: 1_MF_0725 at line(s): 8
-
-Summary:
-  Total trips: 13
-  Valid trips: 12
-  Trips with overlap: 0
-  Trips with departure before arrival: 1

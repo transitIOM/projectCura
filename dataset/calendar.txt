@@ -2,3 +2,5 @@ service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,e
 MF,1,1,1,1,1,0,0,20260101,20261231
 MS,1,1,1,1,1,1,0,20260101,20261231
 SPH,0,0,0,0,0,0,1,20260101,20261231
+FSA,0,0,0,0,1,1,0,20260101,20261231
+SAO,0,0,0,0,0,1,0,20260101,20261231

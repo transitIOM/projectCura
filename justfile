@@ -8,6 +8,5 @@ build:
 build:
 	tar -czvf cura-gtfs.zip dataset/*
 	
-[unix]
 validate:
     cd ./lib/validator && uv run manual_validator.py
