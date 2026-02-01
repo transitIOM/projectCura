@@ -1,4 +1,5 @@
 import csv
+import os
 
 
 def parse_time(time_str):
@@ -18,14 +19,110 @@ def parse_time(time_str):
         raise ValueError(f"Invalid time format: {time_str}")
 
 
+def load_trips():
+    """Load all valid trip_ids from trips.txt."""
+    trips_path = "../../dataset/trips.txt"
+    trip_ids = set()
+    if not os.path.exists(trips_path):
+        print(f"Warning: trips.txt not found at {trips_path}")
+        return trip_ids
+
+    with open(trips_path, newline="\n") as csvfile:
+        reader = csv.reader(csvfile, delimiter=",", quotechar='"')
+        for row in reader:
+            if len(row) > 0:
+                trip_ids.add(row[0])  # trip_id is first column
+    return trip_ids
+
+
+def load_stops():
+    """Load all valid stop_ids from stops.txt."""
+    stops_path = "../../dataset/stops.txt"
+    stop_ids = set()
+    if not os.path.exists(stops_path):
+        print(f"Warning: stops.txt not found at {stops_path}")
+        return stop_ids
+
+    with open(stops_path, newline="\n") as csvfile:
+        reader = csv.reader(csvfile, delimiter=",", quotechar='"')
+        for row in reader:
+            if len(row) > 0:
+                stop_ids.add(row[0])  # stop_id is first column
+    return stop_ids
+
+
+def validate_csv_structure(filePath):
+    """Validate CSV structure: correct number of fields and line termination."""
+    print("\n=== CSV Structure Validation ===")
+
+    issues = []
+    expected_fields = 7  # trip_id, arrival_time, departure_time, stop_id, stop_sequence, pickup_type, drop_off_type
+
+    with open(filePath, 'rb') as f:
+        content = f.read()
+
+    # Check for proper line endings
+    lines = content.decode('utf-8').split('\n')
+
+    # Check if file ends with newline
+    if not content.endswith(b'\n'):
+        issues.append("File does not end with a newline character")
+
+    with open(filePath, newline="\n") as csvfile:
+        reader = csv.reader(csvfile, delimiter=",", quotechar='"')
+        line_number = 1
+
+        for row in reader:
+            if line_number == 1:
+                # Skip header
+                line_number += 1
+                continue
+
+            if len(row) != expected_fields:
+                issues.append(
+                    f"Line {line_number}: Expected {expected_fields} fields, got {len(row)}"
+                )
+
+            line_number += 1
+
+    if issues:
+        for issue in issues:
+            print(f"  ✗ {issue}")
+        return False
+    else:
+        print(f"  ✓ CSV structure is valid ({expected_fields} fields per line)")
+        print(f"  ✓ Line endings are properly terminated")
+        return True
+
+
 def main():
     filePath = "../../dataset/stop_times.txt"
+
+    # First validate CSV structure
+    csv_valid = validate_csv_structure(filePath)
+
+    # Load reference data for orphaned relationship checks
+    valid_trip_ids = load_trips()
+    valid_stop_ids = load_stops()
+
+    print(f"\n=== Reference Data Loaded ===")
+    print(f"  Valid trip_ids in trips.txt: {len(valid_trip_ids)}")
+    print(f"  Valid stop_ids in stops.txt: {len(valid_stop_ids)}")
+
     trips = {}
+    orphaned_trip_ids = set()
+    orphaned_stop_ids = set()
+
     with open(filePath, newline="\n") as csvfile:
         next(csvfile)
         reader = csv.reader(csvfile, delimiter=",", quotechar='"')
         line_number = 2  # Start at line 2 since we skipped the header
         for line in reader:
+            if len(line) != 7:
+                print(f"Skipping line {line_number}: incorrect number of fields")
+                line_number += 1
+                continue
+
             (
                 trip_id,
                 arrival_time,
@@ -35,6 +132,13 @@ def main():
                 pickup_type,
                 drop_off_type,
             ) = line
+
+            # Check for orphaned relationships
+            if valid_trip_ids and trip_id not in valid_trip_ids:
+                orphaned_trip_ids.add((trip_id, line_number))
+            if valid_stop_ids and stop_id not in valid_stop_ids:
+                orphaned_stop_ids.add((stop_id, line_number))
+
             try:
                 trips.setdefault(trip_id, []).append(
                     (
@@ -60,6 +164,40 @@ def main():
 
     # Validate all trips
     print("\n=== Validation Results ===")
+
+    # Report CSV structure validation
+    if csv_valid:
+        print("✓ CSV structure validation: PASSED")
+    else:
+        print("✗ CSV structure validation: FAILED")
+
+    # Report orphaned relationships
+    if orphaned_trip_ids:
+        print(f"\n✗ Orphaned trip_id references ({len(orphaned_trip_ids)}):")
+        for trip_id, line_num in sorted(orphaned_trip_ids)[:10]:  # Show first 10
+            print(f"  Line {line_num}: trip_id '{trip_id}' not found in trips.txt")
+        if len(orphaned_trip_ids) > 10:
+            print(f"  ... and {len(orphaned_trip_ids) - 10} more")
+    else:
+        if valid_trip_ids:
+            print("\n✓ Orphaned trip_id check: PASSED (all trip_ids found in trips.txt)")
+        else:
+            print("\n⚠ Orphaned trip_id check: SKIPPED (trips.txt not found)")
+
+    if orphaned_stop_ids:
+        print(f"\n✗ Orphaned stop_id references ({len(orphaned_stop_ids)}):")
+        for stop_id, line_num in sorted(orphaned_stop_ids)[:10]:  # Show first 10
+            print(f"  Line {line_num}: stop_id '{stop_id}' not found in stops.txt")
+        if len(orphaned_stop_ids) > 10:
+            print(f"  ... and {len(orphaned_stop_ids) - 10} more")
+    else:
+        if valid_stop_ids:
+            print("✓ Orphaned stop_id check: PASSED (all stop_ids found in stops.txt)")
+        else:
+            print("⚠ Orphaned stop_id check: SKIPPED (stops.txt not found)")
+
+    # Time validation
+    print("\n=== Time Sequence Validation ===")
     overlap_count = 0
     depart_after_count = 0
     valid_count = 0
@@ -81,11 +219,14 @@ def main():
         if not overlap_lines and not depart_after_lines:
             valid_count += 1
 
-    print("\nSummary:")
+    print("\n=== Summary ===")
     print(f"  Total trips: {len(trips)}")
     print(f"  Valid trips: {valid_count}")
     print(f"  Trips with overlap: {overlap_count}")
     print(f"  Trips with departure before arrival: {depart_after_count}")
+    print(f"  Orphaned trip_id references: {len(orphaned_trip_ids)}")
+    print(f"  Orphaned stop_id references: {len(orphaned_stop_ids)}")
+    print(f"  CSV structure valid: {'Yes' if csv_valid else 'No'}")
 
 
 def checkForOverlap(trip, trip_id):
