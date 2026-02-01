@@ -28,10 +28,11 @@ def load_trips():
         return trip_ids
 
     with open(trips_path, newline="\n") as csvfile:
+        next(csvfile)  # Skip header
         reader = csv.reader(csvfile, delimiter=",", quotechar='"')
         for row in reader:
-            if len(row) > 0:
-                trip_ids.add(row[0])  # trip_id is first column
+            if len(row) > 2:
+                trip_ids.add(row[2])  # trip_id is third column
     return trip_ids
 
 
@@ -44,6 +45,7 @@ def load_stops():
         return stop_ids
 
     with open(stops_path, newline="\n") as csvfile:
+        next(csvfile)  # Skip header
         reader = csv.reader(csvfile, delimiter=",", quotechar='"')
         for row in reader:
             if len(row) > 0:
