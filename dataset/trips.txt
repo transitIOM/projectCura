@@ -15,3 +15,5 @@ route_id,service_id,trip_id,trip_headsign,trip_short_name,direction_id,wheelchai
 1,MF,1_MF_0725,Port Erin - Castletown - Airport - Douglas,1,
 1,MS,1_MS_0741,Port Erin - Castletown - Airport - Douglas,1,
 1,MS,1_MS_2310,Port Erin - Castletown - Airport - Douglas,1,
+1a,MF,1a_MF_0710,"Douglas - Airport - Castletown - Port Erin",0,
+1a,MS,1a_MS_1651,"Douglas - Airport - Castletown - Port Erin",0,
