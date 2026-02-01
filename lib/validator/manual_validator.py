@@ -58,7 +58,7 @@ def validate_csv_structure(filePath):
     print("\n=== CSV Structure Validation ===")
 
     issues = []
-    expected_fields = 7  # trip_id, arrival_time, departure_time, stop_id, stop_sequence, pickup_type, drop_off_type
+    expected_fields = 8  # trip_id, arrival_time, departure_time, stop_id, stop_sequence, pickup_type, drop_off_type, timepoint
 
     with open(filePath, 'rb') as f:
         content = f.read()
@@ -120,7 +120,7 @@ def main():
         reader = csv.reader(csvfile, delimiter=",", quotechar='"')
         line_number = 2  # Start at line 2 since we skipped the header
         for line in reader:
-            if len(line) != 7:
+            if len(line) != 8:
                 print(f"Skipping line {line_number}: incorrect number of fields")
                 line_number += 1
                 continue
@@ -133,6 +133,7 @@ def main():
                 stop_sequence,
                 pickup_type,
                 drop_off_type,
+                timepoint,
             ) = line
 
             # Check for orphaned relationships

@@ -106,7 +106,7 @@ Future<void> main(List<String> arguments) async {
 }
 
 Future<void> _writeStopsStream(Stream<Map<String, dynamic>> stopStream) async {
-  final file = File('new_stops_requests.txt');
+  final file = File('temp_stops.txt');
   final sink = file.openWrite(mode: FileMode.append);
 
   await for (final stop in stopStream) {
