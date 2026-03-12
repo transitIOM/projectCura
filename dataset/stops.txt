@@ -1,203 +1,789 @@
-stop_id,stop_name,tts_stop_name,stop_lat,stop_lon,location_type,wheelchair_boarding,
-891085001801,"Nobles Hospital Entrance","Nobles Hospital Entrance",54.17249298095703,-4.50611686706543,0,
-891085001806,Hospice Isle of Man,Hospice Isle of Man,54.1734504699707,-4.5037407875061035,0,
-891085013108,"Cronkbourne, Shelter","Kronk-born, Shelter",54.168949127197266,-4.4968132972717285,0,
-891085013114,"Cronkbourne, Cedar Walk","Kronk-born, Cedar Walk",54.169700622558594,-4.49306058883667,4,
-891085003120,"Watterson Lane, Reayrt-Y-Sheer","Watterson Lane, Ree-ert-uh-Sheer",54.17177200317383,-4.4872612953186035,4,
-891085003124,"Watterson Lane, Cronk-Y-Berry","Watterson Lane, Kronk-uh-Berry",54.17658233642578,-4.48061990737915,4,
-891085003122,"Watterson Lane, Cemetary","Watterson Lane, Cemetary",54.174152,-4.484254,4,
-891085013401,"The Cat With No Tail","The Cat With No Tail",54.178955078125,-4.478339672088623,0,
-891085013403,"Campion Way Shelter","Campion Way Shelter",54.179420471191406,-4.476466655731201,0,
-891085013405,"Hailwood Avenue No.10","Hailwood Avenue No.10",54.17752456665039,-4.472858905792236,0,
-891085013908,"Hillberry Road, Highfield Crescent","Hillberry Road, Highfield Crescent",54.178768157958984,-4.467053413391113,0,
-891085013906,"Hillberry Road, Birch Hill Crescent","Hillberry Road, Birch Hill Crescent",54.17824172973633,-4.463789939880371,4,
-891085013904,"Hillbrerry Road, Birch Hill Avenue","Hillbrerry Road, Birch Hill Avenue",54.1767578125,-4.460672855377197,4,
-891085013902,"Avondale Road, Village Walk","Avondale Road, Village Walk",54.175567626953125,-4.457089424133301,4,
-891085003220,"Royal Court Shelter","Royal Court Shelter",54.17329788208008,-4.45392370223999,0,
-891085003218,"Royal Avenue, Central Drive","Royal Avenue, Central Drive",54.17081069946289,-4.453231334686279,4,
-891085003216,"Royal Drive","Royal Drive",54.16948699951172,-4.452409267425537,4,
-891085003214,"Falkland Drive No.24","Falkland Drive Number 24",54.16908264160156,-4.451423168182373,4,
-891085003227,"Port Jack shelter, southbound","Port Jack shelter, southbound",54.167356,-4.452019,0,
-891085020112,"Derby Castle, MER","Derby Castle, Manx Electric Railway",54.166944,-4.460833,4,
-891085020113,"Queens Promenade, Crescent Hotel","Queens Promenade, Crescent Hotel",54.165978,-4.465165,4,
-891085020114,"Queens Promenade, Little Switzerland","Queens Promenade, Little Switzerland",54.1641731262207,-4.468143463134766,4,
-891085020115,"Central Promenade, Palace Terrace","Central Promenade, Palace Terrace",54.16282,-4.470481,4,
-891085020116,"Queens Promenade, Empress Drive","Queens Promenade, Empress Drive",54.16069030761719,-4.473689079284668,4,
-891085020117,"Central Promenade, Esplanade","Central Promenade, Esplanade",54.158406,-4.475888,4,
-891085020118,"Villa Marina shelter","Villa Marina shelter",54.156606,-4.477379,0,
-891085020119,"Harris Promenade","Harris Promenade",54.154378,-4.478012,4,
-891085020120,"Loch Promenade","Lock Promenade",54.15281295776367,-4.478176593780518,4,
-891085020164,"Loch Promenade, Bottleneck Car Park","Lock Promenade, Bottleneck Car Park",54.149139404296875,-4.475071430206299,4,
-891085000102,"Douglas, Lord Street Interchange","Douglas, Lord Street Interchange",54.148333,-4.478056,0,
-891085000109,"Lord Street, Hanover House","Lord Street, Hanover House",54.148193359375,-4.481873035430908,4,
-891085000110,"Lord Street, Clinch's House","Lord Street, Clinch's House",54.14798355102539,-4.484288692474365,4,
-891085000111,"Peel Road, Brown Bobby","Peel Road, Brown Bobby",54.149696350097656,-4.490902900695801,4,
-891085000112,"Hills Meadow","Hills Meadow",54.150049,-4.493898,4,
-891085000203,"Groves Road, Power Station","Groves Road, Power Station",54.150325775146484,-4.5030012130737305,4,
-891085000205,"Groves Road, National Sports Centre","Groves Road, National Sports Centre",54.1520881652832,-4.505209922790527,0,
-891085000207,"Groves Road, Springfield Avenue","Groves Road, Springfield Avenue",54.15305709838867,-4.507902145385742,4,
-891085000209,"New Castletown Road","New Castletown Road",54.152610778808594,-4.510059833526611,4,
-891085010301,"Castletown Road, Anagh Coar Entrance","Castletown Road, Anna-kuh Entrance",54.149757385253906,-4.515509605407715,4,
-891085010305,"Anagh Coar, Four Roads shelter","Anna-kuh, Four Roads shelter",54.145751953125,-4.521950721740723,0,
-891085000301,"Horses Home, southbound","Horses Home, southbound",54.141204833984375,-4.539491176605225,4,
-891085000303,"Rosehill Farm","Rosehill Farm",54.14039611816406,-4.546112060546875,4,
-891085000305,"The Forge Entrance","The Forge Entrance",54.13971710205078,-4.548260688781738,4,
-891085000307,"Ballacutchell Road, Mount Murray","Ballacutchell Road, Mount Murray",54.13510513305664,-4.562323093414307,4,
-891085000309,"Newtown Chapel","Newtown Chapel",54.13081359863281,-4.566148281097412,4,
-891085000311,"Santon School, layby","Santon School, layby",54.12126922607422,-4.579390048980713,4,
-891085000313,"Santon School","Santon School",54.121119,-4.579486,4,
-891085000315,"Santon Railway Station, towards Castletown","Santon Railway Station, towards Castletown",54.11872863769531,-4.586131572723389,4,
-891085010401,"Fairy Bridge Southbound","Fairy Bridge Southbound",54.114986419677734,-4.594559669494629,4,
-891085010403,"Orrisdale Road","Orrisdale Road",54.10742950439453,-4.6062726974487305,4,
-891085010407,"Orrisdale Road, Ballacreggan","Orrisdale Road, Ba-la-kreg-an",54.103973388671875,-4.613951683044434,4,
-891085000401,"Glashen Close","Glashen Close",54.100826263427734,-4.620806694030762,4,
-891085000403,"Opposite Whitestone Garage","Opposite Whitestone Garage",54.09942626953125,-4.624734878540039,4,
-891085000405,"Ballasalla Main Stop Southbound","Ba-la-sal-a Main Stop Southbound",54.097869873046875,-4.629201889038086,4,
-891085000407,"Ballasalla Station, The Paddocks","Ba-la-sal-a Station, The Paddocks",54.09665298461914,-4.629876136779785,4,
-891085000409,"The Sycamores","The Sycamores",54.09416580200195,-4.630006313323975,4,
-891085000501,"Airport Roundabout - southbound","Airport Roundabout - southbound",54.08896,-4.63249,4,
-891085000503,"Airport entrance","Airport entrance",54.086762,-4.634823,4,
-891085000601,"Opposite Brookfields Avenue","Opposite Brookfields Avenue",54.082374572753906,-4.640292644500732,4,
-891085000603,"King William's College","King William's College",54.08064651489258,-4.642192363739014,4,
-891085000605,"Janet's Corner Entrance","Janet's Corner Entrance",54.079193115234375,-4.643761157989502,4,
-891085000607,"Victoria Road, Bowling Green Road","Victoria Road, Bowling Green Road",54.078025817871094,-4.6458258628845215,4,
-891085000609,"Castletown Station, The Sidings","Castletown Station, The Sidings",54.07789611816406,-4.649123191833496,4,
-891085000611,"Victoria Road, Primary School","Victoria Road, Primary School",54.0770149230957,-4.6506805419921875,4,
-891085000613,"Victoria Road, Brewery Wharf","Victoria Road, Brewery Wharf",54.075313568115234,-4.652285575866699,4,
-891085000615,"Castletown Square, The Parade","Castletown Square, The Parade",54.07302474975586,-4.653045654296875,4,
-891085000617,"Farrants Way, Kissack Road","Farrants Way, Kissack Road",54.07384490966797,-4.658061504364014,4,
-891085000619,"Castle Rushen High School","Castle Rushen High School",54.075439453125,-4.660914421081543,4,
-891085000621,"Red Gapp, Royal Life","Red Gapp, Royal Life",54.076656341552734,-4.662857532501221,4,
-891085000623,"Ballalough Estate","Ba-la-lock Estate",54.07809066772461,-4.6641950607299805,4,
-891085000701,"Ballakeighan Cottage","Ba-la-keen Cottage",54.08350372314453,-4.6745195388793945,4,
-891085000703,"Ballabeg Railway Station","Ba-la-beg Railway Station",54.092105865478516,-4.675292491912842,4,
-891085000705,"Ballabeg Three Roads","Ba-la-beg Three Roads",54.096778869628906,-4.675847053527832,4,
-891085000707,"Friary Park Farm","Friary Park Farm",54.099273681640625,-4.678248405456543,4,
-891085000709,"Ballabeg Hall, shelter","Ba-la-beg Hall, shelter",54.100586,-4.680236,0,
-891085000711,"Vicarage Close Shelter","Vicarage Close Shelter",54.099708557128906,-4.682703971862793,0,
-891085010701,"Keyhole Farm Entrance","Keyhole Farm Entrance",54.09654998779297,-4.696340084075928,4,
-891085010703,"Colby Methodist Church","Colby Methodist Church",54.09611511230469,-4.705254554748535,4,
-891085010705,"Opposite Belle Abbey Chapel","Opposite Belle Abbey Chapel",54.09550094604492,-4.7106146812438965,4,
-891085010707,"The Level Southbound","The Level Southbound",54.09356689453125,-4.716678142547607,4,
-891085010709,"The Level, Croit-E-Caley Junction","The Level, Kret-uh-Kay-lee Junction",54.09233856201172,-4.721254825592041,4,
-891085010711,"Colby, opposite Carrick Bay View","Colby, opposite Carrick Bay View",54.091694,-4.725616,4,
-891085011901,"Ballagawne","Ba-la-gown",54.090355,-4.733525,4,
-891085011903,"Ballafesson, shelter","Ba-la-fess-un, shelter",54.092029,-4.741509,0,
-891085011905,"Ballafesson Road","Ba-la-fess-un Road",54.09175,-4.743028,4,
-891085011907,"Barrack Road Junction","Barrack Road Junction",54.090450286865234,-4.744551658630371,4,
-891085000801,"Ponyfields Entrance","Ponyfields Entrance",54.08854675292969,-4.747809886932373,4,
-891085000802,"Marashen Crescent","Marashen Crescent",54.086727142333984,-4.750063419342041,4,
-891085000804,"Station Road Shelter","Station Road Shelter",54.085166931152344,-4.7536821365356445,0,
-891085000805,"Port Erin Railway Station","Port Erin Railway Station",54.08525466918945,-4.756823539733887,4,
-891085000909,"Port St Mary Harbour","Port St Mary Harbour",54.071598052978516,-4.737665176391602,4,
-891085000108,"Douglas, Loch Prom, Stop F","Douglas, Loch Promenade, Stop F",54.149881,-4.477185,4,
-891085000910,"High Street","High Street",54.073787689208984,-4.738663196563721,4,
-891085000117,"Loch Promenade, Granville Street","Loch Promenadeenade, Granville Street",54.1523323059082,-4.478296756744385,4,
-891085000906,"Carrick Apartments","Carrick Apartments",54.075321197509766,-4.737926006317139,4,
-891085000118,"Harris Promenade, Gaiety Theatre","Harris Promenadeenade, Gaiety Theatre",54.154911041259766,-4.478186130523682,4,
-891085000904,"Port St Mary School","Port St Mary School",54.07810974121094,-4.740149974822998,4,
-891085000119,"Central Prom, Esplanade Lane","Central Promenade, Esplanade Lane",54.158374,-4.476105,4,
-891085000902,"Port St Mary Railway Station","Port St Mary Railway Station",54.08031463623047,-4.7420735359191895,4,
-891085000120,"Central Prom, Mona Drive","Central Promenade, Mona Drive",54.160255,-4.474425,4,
-891085000810,"Port Erin, Four Roads","Port Erin, Four Roads",54.083505,-4.74418,4,
-891085000121,"Queens Promenade, Palace Terrace","Queens Promenadeenade, Palace Terrace",54.162750244140625,-4.470959663391113,4,
-891085000811,"Port Erin, Rheyrt y Chrink","Port Erin, Rheyrt y Chrink",54.084511,-4.746208,4,
-891085000122,"Queens Promenade, Piccadilly Court","Queens Promenadeenade, Piccadilly Court",54.164764404296875,-4.4676666259765625,4,
-891085000803,"Port Erin, Ballamaddrell","Port Erin, Ballamaddrell",54.085025,-4.749361,4,
-891085000123,"Queens Prom, Regency Hotel","Queens Promenade, Regency Hotel",54.166082,-4.465181,4,
-891085000124,"Derby Castle MER Station","Derby Castle Manx Electric Railway Station",54.166900634765625,-4.460755825042725,4,
-891085003226,"Port Jack Towards Onchan","Port Jack Towards Onchan",54.16769790649414,-4.4515604972839355,4,
-891085000818,"Bay View Road, Nelson Street","Bay View Road, Nelson Street",54.08742141723633,-4.757228374481201,4,
-891085003213,"Falkland Drive No.9","Falkland Drive Number9",54.16898727416992,-4.451107025146484,4,
-891085000812,"Bay View Road, Harrison Street","Bay View Road, Harrison Street",54.08761215209961,-4.754245758056641,4,
-891085003215,"Royal Avenue, Glen Entrance","Royal Avenue, Glen Entrance",54.16929626464844,-4.4529290199279785,4,
-891085000806,"Bay View Road, Ballakneale Avenue","Bay View Road, Ballakneale Avenue",54.087562561035156,-4.751372814178467,4,
-891085003217,"Royal Avenue, Alberta Drive","Royal Avenue, Alberta Drive",54.17076110839844,-4.453377723693848,4,
-891085000813,"Opposite Ponyfields","Opposite Ponyfields",54.08827209472656,-4.748499393463135,4,
-891085003219,"Royal Avenue No.143","Royal Avenue Number143",54.17266845703125,-4.4539265632629395,4,
-891085011908,"Barrack Road","Barrack Road",54.09028625488281,-4.74491548538208,4,
-891085003221,"Royal Avenue, Auburn Road","Royal Avenue, Auburn Road",54.174156188964844,-4.4543137550354,4,
-891085011906,"Ballafesson Road, Qualtroughs Lane","Ba-la-fess-un Road, Qualtroughs Lane",54.09152,-4.743361,4,
-891085013901,"Avondale Road, Mount View Road","Avondale Road, Mount View Road",54.17540740966797,-4.45708703994751,4,
-891085011904,"Ballafesson Farm","Ba-la-fess-un Farm",54.092103,-4.741656,4,
-891085011902,"Ballagawne, shelter","Ba-la-gown, shelter",54.090386,-4.733961,0,
-891085010712,"Colby, Carrick Bay View","Colby, Carrick Bay View",54.091878,-4.725097,4,
-891085010710,"The Level, Croit-E-Caley Shelter","The Level, Kret-uh-Kay-lee Shelter",54.092506408691406,-4.721012592315674,0,
-891085010708,"The Level Northbound","The Level Northbound",54.093528747558594,-4.7172064781188965,4,
-891085010706,"Belle Abbey Chapel","Belle Abbey Chapel",54.095619201660156,-4.710548400878906,4,
-891085010704,"Colby Bridge, shelter","Colby Bridge, shelter",54.09627914428711,-4.705112457275391,0,
-891085010702,"Cronk-Y-Thatcher","Kronk-uk-Thatcher",54.09630584716797,-4.698052883148193,4,
-891085000712,"Vicarage Close","Vicarage Close",54.099700927734375,-4.682300090789795,4,
-891085000710,"Ballabeg Hall","Ba-la-beg Hall",54.10068130493164,-4.680564880371094,4,
-891085000708,"Friary Park","Friary Park",54.09907150268555,-4.67787504196167,4,
-891085000706,"Ballabeg, Duck Street","Ba-la-beg, Duck Street",54.097251892089844,-4.676174640655518,4,
-891085000704,"Ballabeg Railway Station","Ba-la-beg Railway Station",54.09226608276367,-4.675382137298584,4,
-891085000702,"Ballakeighan Farm","Ba-la-keen Farm",54.0836067199707,-4.674386024475098,4,
-891085000622,"Ballalough Shelter","Ba-la-lock Shelter",54.07777786254883,-4.663269519805908,0,
-891085000620,"Arbory Road, Buchan School","Arbory Road, Buchan School",54.07498550415039,-4.659453868865967,4,
-891085000618,"Farrants Way, Shoprite","Farrants Way, Shoprite",54.07381057739258,-4.656741142272949,4,
-891085000616,"The Parade, Castletown Square","The Parade, Castletown Square",54.072967529296875,-4.653258323669434,4,
-891085000614,"Victoria Road, Thirtle Bridge","Victoria Road, Thirtle Bridge",54.075347900390625,-4.6524224281311035,4,
-891085000612,"Victoria Road, Riverside","Victoria Road, Riverside",54.07672882080078,-4.651165008544922,4,
-891085000610,"Castletown Station, Elizabeth Rise","Castletown Station, Elizabeth Rise",54.07770919799805,-4.6493120193481445,4,
-891085000608,"Victoria Road, New Estate","Victoria Road, New Estate",54.078128814697266,-4.645808696746826,4,
-891085000606,"Janet's Corner Garage","Janet's Corner Garage",54.07908630371094,-4.644127368927002,4,
-891085000604,"King William's College Shelter","King William's College Shelter",54.08110809326172,-4.641861915588379,0,
-891085000602,"Brookfields Avenue Entrance","Brookfields Avenue Entrance",54.082332611083984,-4.64052152633667,4,
-891085000410,"Meadow Court","Meadow Court",54.094520568847656,-4.6298723220825195,4,
-891085000408,"Ballasalla Station, Silverburn Estate","Ba-la-sal-a Station, Silverburn Estate",54.09596633911133,-4.6297383308410645,4,
-891085000406,"Ballasalla Main Road Stop","Ba-la-sal-a Main Road Stop",54.098304748535156,-4.628361225128174,4,
-891085000404,"Whitestone Garage Entrance","Whitestone Garage Entrance",54.099403381347656,-4.625143527984619,4,
-891085000402,"Glashen Close Entrance","Glashen Close Entrance",54.1009407043457,-4.620821475982666,4,
-891085010408,"Glashen Garey","Glashen Garey",54.10490036010742,-4.612341403961182,4,
-891085010404,"Orrisdale Road Junction","Orrisdale Road Junction",54.10712432861328,-4.6065850257873535,4,
-891085010406,"Ballastrang Farm","Ba-la-strong Farm",54.113216400146484,-4.597325325012207,4,
-891085010402,"Ballalonna Farm Entrance","Ba-la-lon-a Farm Entrance",54.11482238769531,-4.594902038574219,4,
-891085000314,"Santon Railway Station Towards Douglas","Santon Railway Station Towards Douglas",54.118141174316406,-4.587635040283203,4,
-891085000312,"Santon School","Santon School",54.121253967285156,-4.5789313316345215,4,
-891085000310,"Brown Cow Hill, layby","Brown Cow Hill, layby",54.12382125854492,-4.573896884918213,4,
-891085000308,"Newtown Estate Shelter","Newtown Estate Shelter",54.131187438964844,-4.566129207611084,0,
-891085000306,"Mount Murry, Knock Froy Lane","Mount Murry, Knock Froy Lane",54.135169982910156,-4.56183385848999,4,
-891085000304,"The Forge Shelter","The Forge Shelter",54.139892578125,-4.548008441925049,0,
-891085000302,"Horses Home Northbound","Horses Home Northbound",54.141292572021484,-4.541499137878418,4,
-891085010306,"Four Roads, Anagh Coar","Four Roads, Anna-kuh",54.1455192565918,-4.523262977600098,4,
-891085001101,"Cooil Road, Cooil Drive","Keel Road, Keel Drive",54.14779281616211,-4.524374485015869,4,
-891085010304,"Opposite Hampton Farm Estate","Opposite Hampton Farm Estate",54.14792251586914,-4.518576622009277,4,
-891085001103,"Cooil Road, Robinsons","Keel Road, Robinsons",54.15144729614258,-4.532670974731445,4,
-891085010302,"Anagh Coar entrance, shelter, Castletown Road","Anna-kuh entrance, shelter, Castletown Road",54.149757385253906,-4.515887260437012,0,
-891085001105,"Business Park, Canada Life","Business Park, Canada Life",54.15403366088867,-4.535150051116943,4,
-891085001114,"Opposite Rosehill Mews, Vicarage Road","Opposite Rosehill Mews, Vicarage Road",54.156864166259766,-4.528697967529297,4,
-891085001610,"Heather View, Vicarage Road","Heather View, Vicarage Road",54.15868377685547,-4.517128944396973,4,
-891085001611,"Willowbrook Gardens, Vicarage Road","Willowbrook Gardens, Vicarage Road",54.158329010009766,-4.520458221435547,4,
-891085012105,"Stevenson Way, Manor Road Junction","Stevenson Way, Manor Road Junction",54.15717315673828,-4.526288032531738,4,
-891085012106,"Stevenson Way, Manor Drive","Stevenson Way, Manor Drive",54.15424346923828,-4.525482177734375,4,
-891085012107,"Stevenson Way, Opposite Hilltop View","Stevenson Way, Opposite Hilltop View",54.15262985229492,-4.5228753089904785,4,
-891085010313,"The Darragh","The Darragh",54.15067672729492,-4.520650386810303,4,
-891085010314,"Anagh Coar Close","Anna-kuh Close",54.14937210083008,-4.521806240081787,4,
-891085010315,"Tramman Park","Tramman Park",54.14799880981445,-4.5210795402526855,4,
-891085010316,"Farvane Link","Farvane Link",54.148250579833984,-4.51863956451416,4,
-891085010317,"Urley Way","Urley Way",54.14936065673828,-4.5169477462768555,4,
-891085000210,"Harcroft Meadow, New Castletown Road","Harcroft Meadow, New Castletown Road",54.152809143066406,-4.510072231292725,4,
-891085020159,"Alexander Drive, Wychwood","Alexander Drive, Wychwood",54.15704345703125,-4.494158744812012,4,
-891085000208,"Groves Road, Saddle Mews","Groves Road, Saddle Mews",54.15287399291992,-4.507232666015625,4,
-891085003101,"Ballanard Road, Port-E-Chee","Ballanard Road, Port-uh-Chee",54.16730499267578,-4.486069202423096,4,
-891085000206,"National Sports Centre, layby","National Sports Centre, layby",54.152099609375,-4.504727363586426,4,
-891085003110,"Willaston School Shelter","Willaston School Shelter",54.170936584472656,-4.481628894805908,0,
-891085000204,"Power Station Shelter","Power Station Shelter",54.15035629272461,-4.5027756690979,0,
-891085020168,"Pulrose Bridge Shelter","Pulrose Bridge Shelter",54.150577545166016,-4.499749660491943,0,
-891085020103,"Peel Road, Pulrose Bridge","Peel Road, Pulrose Bridge",54.15071487426758,-4.496257305145264,4,
-891085020104,"Peel Road, Brown Bobby","Peel Road, Brown Bobby",54.14985,-4.49123,4,
-891085020162,"Circular Road, Hillside Avenue","Circular Road, Hillside Avenue",54.1495361328125,-4.486246585845947,4,
-891085020106,"Capital House, Circular Road","Capital House, Circular Road",54.150726318359375,-4.483737945556641,4,
-891085020107,"Prospect Hill, Finch Rd","Prospect Hill, Finch Rd",54.150386,-4.481041,4,
-891085000107,"Douglas, Victoria Street, Stand G","Douglas, Victoria Street, Stop G",54.149320,-4.478284,4,
-891085000169,"Middle River Industrial Estate","Middle River Industrial Estate",54.1500129699707,-4.501522064208984,4,
-891085010303,"Hampton Farm Estate, layby","Hampton Farm Estate, layby",54.14828109741211,-4.517818927764893,4,
-891085011801,"Opposite Shore Hotel","Opposite Shore Hotel",54.08494186401367,-4.720634460449219,4,
-891085011803,"Gansey, Avondale","Gansey, Avondale",54.08411407470703,-4.727321147918701,4,
-891085011805,"Gansey Opposite Waters' Edge","Gansey Opposite Waters' Edge",54.08302307128906,-4.729666233062744,4,
-891085000913,"Beach Road, Creggan Lea Junction","Beach Road, Creggan Lea Junction",54.079742431640625,-4.738323211669922,4,
-891085000903,"Port St Mary Promenade","Port St Mary Promenadeenade",54.078025817871094,-4.739837646484375,4,
-891085000905,"Carrick Apartments","Carrick Apartments",54.07560348510742,-4.737593173980713,4,
-891085000907,"Park Road","Park Road",54.07272720336914,-4.739404678344727,4,
-891085000908,"Queen's Road","Queen's Road",54.07166290283203,-4.738598823547363,4,
+stop_id,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,stop_timezone,wheelchair_boarding
+891085001801,"Nobles Hospital main entrance, towards Douglas",,54.17249298095703,-4.50611686706543,,,,,,0
+891085013108,"Cronkbourne Village, shelter",,54.168949127197266,-4.4968132972717285,,,,,,0
+891085013114,"Cronkbourne Village, Cedar Walk",,54.169700622558594,-4.49306058883667,,,,,,0
+891085003120,"Douglas, Watterson Lane, Thomas Keig Road",,54.17177200317383,-4.4872612953186035,,,,,,0
+891085003122,"Douglas, Watterson Lane, Cemetery",,54.17415237426758,-4.484253883361816,,,,,,0
+891085003124,"Douglas, Watterson Lane, Cronk-y-Berry",,54.17658233642578,-4.48061990737915,,,,,,0
+891085013401,"Hailwood Avenue, Cat with no Tail",,54.178955078125,-4.478339672088623,,,,,,0
+891085013403,"Hailwood Avenue, Campion Way shelter",,54.179420471191406,-4.476466655731201,,,,,,0
+891085013405,"Hailwood Avenue, No 10",,54.17752456665039,-4.472858905792236,,,,,,0
+891085013908,"Hillberry Road/Highfield Crescent",,54.178768157958984,-4.467053413391113,,,,,,0
+891085013906,"Hilberry Road/Birch Hill Crescent",,54.17824172973633,-4.463789939880371,,,,,,0
+891085013904,"Hillberry Road/Birch Hill Avenue",,54.1767578125,-4.460672855377197,,,,,,0
+891085013902,"Onchan, Avondale Road/Precinct",,54.175567626953125,-4.457089424133301,,,,,,0
+891085003220,"Onchan, Royal Court shelter",,54.17329788208008,-4.45392370223999,,,,,,0
+891085003218,"Onchan, Royal Avenue, Central Drive shelter",,54.17081069946289,-4.453231334686279,,,,,,0
+891085003216,"Onchan, Royal Drive",,54.16948699951172,-4.452409267425537,,,,,,0
+891085003214,"Onchan, No 24 Falkland Drive",,54.16908264160156,-4.451423168182373,,,,,,0
+891085003226,"Onchan, Port Jack shelter",,54.16769790649414,-4.4515604972839355,,,,,,0
+891085000124,"Douglas, Derby Castle, MER Station",,54.166900634765625,-4.460755825042725,,,,,,0
+891085020113,"Douglas Queens Promenade, Crescent Hotel",,54.165978,-4.465165,,,,,,0
+891085020114,"Douglas Queens Promenade, Little Switzerland",,54.1641731262207,-4.468143463134766,,,,,,0
+891085020115,"Douglas Central Promenade, Palace Terrace",,54.16282,-4.470481,,,,,,0
+891085020116,"Douglas Central Promenade, Empress Drive",,54.16069030761719,-4.473689079284668,,,,,,0
+891085020117,"Douglas Central Promenade, Esplanade",,54.158406,-4.475888,,,,,,0
+891085020118,"Douglas Harris Promenade, Villa Marina shelter",,54.156606,-4.477379,,,,,,0
+891085020119,"Douglas, Harris Promenade, Rendezvous",,54.154378,-4.478012,,,,,,0
+891085020120,"Douglas, Loch Promenade",,54.15281295776367,-4.478176593780518,,,,,,0
+891085020164,"Douglas, Loch Promenade, Bottleneck car park",,54.149139404296875,-4.475071430206299,,,,,,0
+891085000109,"Lord Street, Hanover House",,54.148193359375,-4.481873035430908,,,,,,0
+891085000110,"Lord Street, Clinchs House",,54.14798355102539,-4.484288692474365,,,,,,0
+891085000111,"Douglas, Peel Road, Brown Bobby Shelter",,54.149696350097656,-4.490902900695801,,,,,,0
+891085000112,"Douglas, Peel Road, Hills Meadow",,54.150049,-4.493898,,,,,,0
+891085000169,"Douglas, Pulrose Bridge, southbound",,54.1500129699707,-4.501522064208984,,,,,,0
+891085000203,"Douglas, Power Station, southbound",,54.150325775146484,-4.5030012130737305,,,,,,0
+891085000205,"Douglas, National Sports Centre, southbound",,54.1520881652832,-4.505209922790527,,,,,,0
+891085000207,"Douglas, Groves Road, Springfield Avenue",,54.15305709838867,-4.507902145385742,,,,,,0
+891085000209,"Douglas, New Castletown Road, Spring Valley",,54.152610778808594,-4.510059833526611,,,,,,0
+891085010301,"New Castletown Road, Anagh Coar entrance",,54.149757385253906,-4.515509605407715,,,,,,0
+891085010303,"New Castletown Road, Hampton Farm Estate",,54.14828109741211,-4.517818927764893,,,,,,0
+891085010305,"New Castletown Road, Four Roads Shelter",,54.145751953125,-4.521950721740723,,,,,,0
+891085000301,"Richmond Hill, Horses Home southbound",,54.141204833984375,-4.539491176605225,,,,,,0
+891085000303,"Richmond Hill, Rosehill Farm",,54.14039611816406,-4.546112060546875,,,,,,0
+891085000305,"Mount Murray, The Forge, entrance",,54.13971710205078,-4.548260688781738,,,,,,0
+891085000307,"Mount Murray, Knock Froy Lane",,54.13510513305664,-4.562323093414307,,,,,,0
+891085000309,"Newtown, towards Castletown",,54.13081359863281,-4.566148281097412,,,,,,0
+891085000311,"Santon, Brown Cow Hill. Manncat",,54.12126922607422,-4.579390048980713,,,,,,0
+891085000313,"Santon, Old School, towards Castletown",,54.121119,-4.579486,,,,,,0
+891085000315,"Santon Station, towards Castletown",,54.11872863769531,-4.586131572723389,,,,,,0
+891085010401,"Fairy Bridge southbound",,54.114986419677734,-4.594559669494629,,,,,,0
+891085010403,"Orrisdale Road",,54.10742950439453,-4.6062726974487305,,,,,,0
+891085010407,"Orrisdale Road, Ballacreggan",,54.103973388671875,-4.613951683044434,,,,,,0
+891085000401,"Ballasalla, Glashen Close",,54.100826263427734,-4.620806694030762,,,,,,0
+891085000403,"Ballasalla, Ballahick Farm Lane",,54.09942626953125,-4.624734878540039,,,,,,0
+891085000405,"Ballasalla, Douglas Road southbound",,54.097869873046875,-4.629201889038086,,,,,,0
+891085000407,"Ballasalla, The Paddocks",,54.09665298461914,-4.629876136779785,,,,,,0
+891085000409,"Ballasalla, Sycamores",,54.09416580200195,-4.630006313323975,,,,,,0
+891085000501,"Airport cargo terminal, towards Castletown",,54.08896,-4.63249,,,,,,0
+891085000503,"Ronaldsway Airport entrance, towards Castletown",,54.086762,-4.634823,,,,,,0
+891085000601,"Castletown, Brookfield Avenue",,54.082374572753906,-4.640292644500732,,,,,,0
+891085000603,"Castletown, King Williams College entrance",,54.08064651489258,-4.642192363739014,,,,,,0
+891085000605,"Castletown, Janets Corner entrance",,54.079193115234375,-4.643761157989502,,,,,,0
+891085000607,"Castletown, Victoria Road, Bowling Green Road",,54.078025817871094,-4.6458258628845215,,,,,,0
+891085000609,"Castletown, Railway Station, southbound",,54.07789611816406,-4.649123191833496,,,,,,0
+891085000611,"Castletown, Victoria Road School",,54.0770149230957,-4.6506805419921875,,,,,,0
+891085000613,"Castletown, Victoria Road, Brewery Wharf",,54.075313568115234,-4.652285575866699,,,,,,0
+891085000615,"Castletown Square",,54.07302474975586,-4.653045654296875,,,,,,0
+891085000617,"Castletown, Farrants Way",,54.07384490966797,-4.658061504364014,,,,,,0
+891085000619,"Castletown, Castle Rushen High School",,54.075439453125,-4.660914421081543,,,,,,0
+891085000621,"Castletown, Red Gap",,54.076656341552734,-4.662857532501221,,,,,,0
+891085000623,"Castletown, Ballalough",,54.07809066772461,-4.6641950607299805,,,,,,0
+891085000701,"Ballakeighen",,54.08350372314453,-4.6745195388793945,,,,,,0
+891085000703,"Ballabeg Station",,54.092105865478516,-4.675292491912842,,,,,,0
+891085000705,"Ballabeg, Duck Street",,54.096778869628906,-4.675847053527832,,,,,,0
+891085000707,"Ballabeg, Friary Park Farm",,54.099273681640625,-4.678248405456543,,,,,,0
+891085000709,"Ballabeg Hall, shelter",,54.100586,-4.680236,,,,,,0
+891085000711,"Ballabeg, Vicarage Close shelter",,54.099708557128906,-4.682703971862793,,,,,,0
+891085010701,"Colby, Keyhole farm entrance",,54.09654998779297,-4.696340084075928,,,,,,0
+891085010703,"Colby Bridge, Methodist Church",,54.09611511230469,-4.705254554748535,,,,,,0
+891085010705,"Colby, opposite Belle Abbey Chapel",,54.09550094604492,-4.7106146812438965,,,,,,0
+891085010707,"Colby, Level southbound",,54.09356689453125,-4.716678142547607,,,,,,0
+891085010709,"Colby, Croit-e-Caley junction",,54.09233856201172,-4.721254825592041,,,,,,0
+891085010711,"Colby, opposite Carrick Bay View",,54.091694,-4.725616,,,,,,0
+891085011901,"Ballagawne, Nursery",,54.090355,-4.733525,,,,,,0
+891085011903,"Ballafesson, shelter",,54.092029,-4.741509,,,,,,0
+891085011905,"Ballafesson Road",,54.09175,-4.743028,,,,,,0
+891085011907,"Ballafesson Road, Barracks Road junction",,54.090450286865234,-4.744551658630371,,,,,,0
+891085000801,"Port Erin, Ponyfields entrance",,54.08854675292969,-4.747809886932373,,,,,,0
+891085000802,"Port Erin, Ballafesson Road, Marashen Crescent",,54.086727142333984,-4.750063419342041,,,,,,0
+891085000804,"Port Erin, Station Road shelter",,54.085166931152344,-4.7536821365356445,,,,,,0
+891085000805,"Port Erin Railway Station",,54.08525466918945,-4.756823539733887,,,,,,0
+891085000909,"Port St Mary Harbour, Albert Hotel",,54.071598052978516,-4.737665176391602,,,,,,0
+891085040104,"Castle Rushen High School",,54.075225830078125,-4.661258697509766,,,,,,0
+891085000620,"Castletown, Arbory Road",,54.07498550415039,-4.659453868865967,,,,,,0
+891085000618,"Castletown, Farrants Way, Tesco",,54.07381057739258,-4.656741142272949,,,,,,0
+891085000616,"Castletown Square, Co-Op",,54.072967529296875,-4.653258323669434,,,,,,0
+891085000614,"Castletown, Victoria Road, bridge",,54.075347900390625,-4.6524224281311035,,,,,,0
+891085000612,"Castletown, Victoria Road, riverside",,54.07672882080078,-4.651165008544922,,,,,,0
+891085000610,"Castletown, Railway Station, northbound",,54.07770919799805,-4.6493120193481445,,,,,,0
+891085000608,"Castletown, Victoria Road, The Meadows",,54.078128814697266,-4.645808696746826,,,,,,0
+891085000606,"Castletown, Janets Corner",,54.07908630371094,-4.644127368927002,,,,,,0
+891085000604,"Castletown, King Williams College shelter",,54.08110809326172,-4.641861915588379,,,,,,0
+891085000602,"Castletown, Brookfield Avenue entrance",,54.082332611083984,-4.64052152633667,,,,,,0
+891085000410,"Ballasalla, Meadow Court",,54.094520568847656,-4.6298723220825195,,,,,,0
+891085000408,"Ballasalla, Railway Station",,54.09596633911133,-4.6297383308410645,,,,,,0
+891085000406,"Ballasalla, Douglas Road northbound",,54.098304748535156,-4.628361225128174,,,,,,0
+891085000404,"Ballasalla, old Whitestone garage",,54.099403381347656,-4.625143527984619,,,,,,0
+891085000402,"Ballasalla, Glashen Close entrance",,54.1009407043457,-4.620821475982666,,,,,,0
+891085010408,"Orrisdale Road, Glashen Garey",,54.10490036010742,-4.612341403961182,,,,,,0
+891085010404,"Orrisdale Road junction",,54.10712432861328,-4.6065850257873535,,,,,,0
+891085010406,"Fairy Bridge, Ballastrang entrance",,54.113216400146484,-4.597325325012207,,,,,,0
+891085010402,"Fairy Bridge, Ballagloney farm entrance",,54.11482238769531,-4.594902038574219,,,,,,0
+891085000314,"Santon Station, towards Douglas",,54.118141174316406,-4.587635040283203,,,,,,0
+891085000312,"Santon, Old School, towards Douglas",,54.121253967285156,-4.5789313316345215,,,,,,0
+891085000310,"Santon, Brown Cow Hill layby",,54.12382125854492,-4.573896884918213,,,,,,0
+891085000308,"Newtown, towards Douglas",,54.131187438964844,-4.566129207611084,,,,,,0
+891085000306,"Mount Murray, Ballacutchell Road",,54.135169982910156,-4.56183385848999,,,,,,0
+891085000304,"Mount Murray, The Forge, shelter",,54.139892578125,-4.548008441925049,,,,,,0
+891085000302,"Richmond Hill, Horses Home northbound",,54.141292572021484,-4.541499137878418,,,,,,0
+891085010306,"New Castletown Road, Four Roads",,54.1455192565918,-4.523262977600098,,,,,,0
+891085010304,"New Castletown Road, Hampton Farm",,54.14792251586914,-4.518576622009277,,,,,,0
+891085010302,"New Castletown Road, Anagh Coar shelter",,54.149757385253906,-4.515887260437012,,,,,,0
+891085000210,"Douglas, New Castletown Road, Harcroft Meadows",,54.152809143066406,-4.510072231292725,,,,,,0
+891085000208,"Douglas, Groves Road, Saddle Mews",,54.15287399291992,-4.507232666015625,,,,,,0
+891085000206,"Douglas, National Sports Centre, layby",,54.152099609375,-4.504727363586426,,,,,,0
+891085000204,"Douglas, Power Station shelter",,54.15035629272461,-4.5027756690979,,,,,,0
+891085020103,"Douglas, Peel Road, Pulrose Bridge",,54.15071487426758,-4.496257305145264,,,,,,0
+891085020104,"Douglas, Peel Road, Brown Bobby",,54.14985,-4.49123,,,,,,0
+891085020162,"Douglas, Circular Road, Hillside Avenue junction",,54.1495361328125,-4.486246585845947,,,,,,0
+891085020106,"Douglas, Circular Road, Capital House",,54.150726318359375,-4.483737945556641,,,,,,0
+891085020107,"Douglas, Prospect Hill, Finch Road junction",,54.150386,-4.481041,,,,,,0
+891085000910,"Port St Mary, High Street",,54.073787689208984,-4.738663196563721,,,,,,0
+891085000906,"Port St Mary, Carrick",,54.075321197509766,-4.737926006317139,,,,,,0
+891085000904,"Port St Mary, school layby",,54.07810974121094,-4.740149974822998,,,,,,0
+891085000902,"Port St Mary Railway Station",,54.08031463623047,-4.7420735359191895,,,,,,0
+891085000810,"Port Erin, Four Roads",,54.083505,-4.74418,,,,,,0
+891085000811,"Port Erin, Rheyrt y Chrink",,54.084511,-4.746208,,,,,,0
+891085000803,"Port Erin, Ballamaddrell",,54.085025,-4.749361,,,,,,0
+891085000818,"Port Erin, Bay View Road, Nelson Street",,54.08742141723633,-4.757228374481201,,,,,,0
+891085000812,"Port Erin, Bay View Road, Harrison Street",,54.08761215209961,-4.754245758056641,,,,,,0
+891085000806,"Port Erin, Bay View Road, Ballakneale Avenue",,54.087562561035156,-4.751372814178467,,,,,,0
+891085000813,"Port Erin, opposite Ponyfields",,54.08827209472656,-4.748499393463135,,,,,,0
+891085011908,"Ballafesson Road, Barrack Road",,54.09028625488281,-4.74491548538208,,,,,,0
+891085011906,"Ballafesson Road, Qualtroughs Lane",,54.09152,-4.743361,,,,,,0
+891085011904,"Ballafesson Farm",,54.092103,-4.741656,,,,,,0
+891085011902,"Ballagawne, shelter",,54.090386,-4.733961,,,,,,0
+891085010712,"Colby, Carrick Bay View",,54.091878,-4.725097,,,,,,0
+891085010710,"Colby, Croit-e-Caley shelter",,54.092506408691406,-4.721012592315674,,,,,,0
+891085010708,"Colby, Level northbound",,54.093528747558594,-4.7172064781188965,,,,,,0
+891085010706,"Colby, Belle Abbey Road",,54.095619201660156,-4.710548400878906,,,,,,0
+891085010704,"Colby Bridge, layby",,54.09627914428711,-4.705112457275391,,,,,,0
+891085010702,"Colby, Cronk--y-Thatcher",,54.09630584716797,-4.698052883148193,,,,,,0
+891085000712,"Ballabeg, Vicarage Close",,54.099700927734375,-4.682300090789795,,,,,,0
+891085000710,"Ballabeg Hall",,54.10068130493164,-4.680564880371094,,,,,,0
+891085000708,"Ballabeg, Friary Park entrance",,54.09907150268555,-4.67787504196167,,,,,,0
+891085000704,"Ballabeg Railway Station",,54.09226608276367,-4.675382137298584,,,,,,0
+891085000702,"Ballakeighen Farm",,54.0836067199707,-4.674386024475098,,,,,,0
+891085000622,"Castletown, Ballalough layby",,54.07777786254883,-4.663269519805908,,,,,,0
+891085020101,"Douglas, Peel Road, Quarter Bridge",,54.155051,-4.501106,,,,,,0
+891085020159,"Douglas, Alexander Drive, Wychwood House",,54.15704345703125,-4.494158744812012,,,,,,0
+891085000147,"Douglas, Somerset Road, St Ninians",,54.16392517089844,-4.484078407287598,,,,,,0
+891085003101,"Douglas, Ballanard Road, Port-e-Chee",,54.16730499267578,-4.486069202423096,,,,,,0
+891085003110,"Douglas, Willaston, school shelter",,54.170936584472656,-4.481628894805908,,,,,,0
+891085020108,"Douglas, Victoria Street, Dukes Street",,54.149253845214844,-4.477057933807373,,,,,,0
+891085001101,"Douglas, Cooil Road, Cooil Drive",,54.14779281616211,-4.524374485015869,,,,,,0
+891085001103,"Cooil Road, Robinsons",,54.15144729614258,-4.532670974731445,,,,,,0
+891085001105,"IOM Business Park, Zurich & Canada Life",,54.15403366088867,-4.535150051116943,,,,,,0
+891085001114,"Vicarage Road, opposite Rose Hill Mews",,54.156864166259766,-4.528697967529297,,,,,,0
+891085001610,"Vicarage Road, Meadow Crescent",,54.15868377685547,-4.517128944396973,,,,,,0
+891085001611,"Vicarage Road, Willowbrook Gardens",,54.158329010009766,-4.520458221435547,,,,,,0
+891085012105,"Farmhill, Stevenson Way, Manor Road junction",,54.15717315673828,-4.526288032531738,,,,,,0
+891085012106,"Farmhill, Stevenson Way , Manor Drive",,54.15424346923828,-4.525482177734375,,,,,,0
+891085012107,"Farmhill, Stevenson Way, opposite Hill Top View",,54.15262985229492,-4.5228753089904785,,,,,,0
+891085010313,"Anagh Coar, Hibbin Way",,54.15067672729492,-4.520650386810303,,,,,,0
+891085010314,"Anagh Coar, Hibbin Avenue",,54.14937210083008,-4.521806240081787,,,,,,0
+891085010315,"Anagh Coar, Tramman Park",,54.14799880981445,-4.5210795402526855,,,,,,0
+891085010316,"Anagh Coar, The Link",,54.148250579833984,-4.51863956451416,,,,,,0
+891085010317,"Anagh Coar, Urley Walk",,54.14936065673828,-4.5169477462768555,,,,,,0
+891085000117,"Douglas, Loch Promenade, Granville Street",,54.1523323059082,-4.478296756744385,,,,,,0
+891085000118,"Douglas, Harris Promenade, Gaiety Theatre",,54.154911041259766,-4.478186130523682,,,,,,0
+891085000119,"Douglas, Central Promenade, Esplanade Lane",,54.158374,-4.476105,,,,,,0
+891085000120,"Douglas, Central Promenade, Mona Drive",,54.160255,-4.474425,,,,,,0
+891085000121,"Douglas, Central Promenade, Palace Hotel/Casino",,54.162750244140625,-4.470959663391113,,,,,,0
+891085000122,"Douglas, Queens Promenade, Picadilly Court",,54.164764404296875,-4.4676666259765625,,,,,,0
+891085000123,"Douglas, Queens Promenade, Regency Hotel",,54.166082,-4.465181,,,,,,0
+891085003213,"Onchan, No 9 Falkland Drive",,54.16898727416992,-4.451107025146484,,,,,,0
+891085003215,"Onchan, Royal Avenue Glen entrance",,54.16929626464844,-4.4529290199279785,,,,,,0
+891085003217,"Onchan, Royal Avenue, Alberta Drive",,54.17076110839844,-4.453377723693848,,,,,,0
+891085003219,"Onchan, No 143 Royal Avenue",,54.17266845703125,-4.4539265632629395,,,,,,0
+891085003221,"Onchan, Royal Avenue, Auburn Road",,54.174156188964844,-4.4543137550354,,,,,,0
+891085013901,"Onchan, Avondale Road/Mount View Road",,54.17540740966797,-4.45708703994751,,,,,,0
+891085013903,"Hillberry Road/Ballachurry",,54.17658996582031,-4.460657119750977,,,,,,0
+891085013909,"Highfield Crescent, Willow Close",,54.17934036254883,-4.467584133148193,,,,,,0
+891085013910,"Highfield Crescent, Seafield Crescent",,54.18085861206055,-4.469775199890137,,,,,,0
+891085013911,"Birch Hill Crescent, Highfield close",,54.182167053222656,-4.472062110900879,,,,,,0
+891085013912,"Birch Hill Crescent",,54.1832275390625,-4.469916820526123,,,,,,0
+891085013913,"Birch Hiill Crescent, shop",,54.181304931640625,-4.464595794677734,,,,,,0
+891085013914,"Birch Hill Crescent, Kaighen's Lane",,54.1794319152832,-4.463278293609619,,,,,,0
+891085013905,"Hillberry Road/Lhon Dhoo Close",,54.178314208984375,-4.465213775634766,,,,,,0
+891085013907,"Hillberry Road/Heywood Park",,54.17924880981445,-4.469067096710205,,,,,,0
+891085013404,"Hailwood Avenue, Duck Pond shelter",,54.17753601074219,-4.4744086265563965,,,,,,0
+891085013407,"Hailwood Avenue, opposite Campion Way",,54.17926788330078,-4.476451396942139,,,,,,0
+891085013402,"Hailwood Avenue, Cronk-y-Berry school layby",,54.178680419921875,-4.478433609008789,,,,,,0
+891085003125,"Douglas, Watterson Lane, Cronk y Berry junction",,54.17681121826172,-4.480010032653809,,,,,,0
+891085003123,"Douglas, Watterson Lane, Fenella Avenue",,54.17461013793945,-4.483388900756836,,,,,,0
+891085003121,"Douglas, Watterson Lane, Ballanard Court",,54.17115020751953,-4.488189697265625,,,,,,0
+891085003115,"Douglas, Ballanard Road, Norwood Drive",,54.16666030883789,-4.485452651977539,,,,,,0
+891085020123,"Douglas, Ballaquayle Road, St Ninians Shelter",,54.164546966552734,-4.483450889587402,,,,,,0
+891085020124,"Douglas, Woodbourne Road, RC School",,54.16276931762695,-4.4832963943481445,,,,,,0
+891085020125,"Douglas, Woodbourne Road, Avondale shelter",,54.16093444824219,-4.484819412231445,,,,,,0
+891085020126,"Douglas, Woodbourne Road, Hilary Road shelter",,54.15753936767578,-4.486214637756348,,,,,,0
+891085020127,"Douglas, Woodbourne Road, opp Woodbourne Square",,54.156172,-4.485431,,,,,,0
+891085020128,"Douglas, Prospect Terrace",,54.155,-4.484722,,,,,,0
+891085020129,"Douglas, Bucks Road, Christian Road junction",,54.152591,-4.483886,,,,,,0
+891085000502,"Airport cargo terminal, towards Douglas",,54.08896,-4.63249,,,,,,0
+891085000504,"Ronaldsway Airport entrance, towards Douglas",,54.086762,-4.634823,,,,,,0
+891085003107,"Douglas, Willaston, Snaefell Road, Greeba Road",,54.175052642822266,-4.480751991271973,,,,,,0
+891085003108,"Douglas, Willaston, Snaefell Road No 60",,54.173770904541016,-4.481325149536133,,,,,,0
+891085003109,"Douglas, Willaston, Snaefell Road shelter",,54.1726188659668,-4.482372760772705,,,,,,0
+891085003111,"Douglas, Willaston, Tynwald Road, dip",,54.169307708740234,-4.481567859649658,,,,,,0
+891085003112,"Douglas, Willaston, Tynwald Road, Sulby Road",,54.16896438598633,-4.482224941253662,,,,,,0
+891085003113,"Douglas, Willaston, Tynwald Road, Baldwin Road",,54.16805648803711,-4.484446048736572,,,,,,0
+891085003114,"Douglas, Willaston, Barrule Road shelter",,54.168373107910156,-4.486019134521484,,,,,,0
+891085000807,"Port Erin, Castletown Road",,54.085077,-4.749067,,,,,,0
+891085000808,"Port Erin, Southlands",,54.084511,-4.746208,,,,,,0
+891085000809,"Port Erin, Four Roads, Holmcroft",,54.08347,-4.744081,,,,,,0
+891085000901,"Port St Mary Station",,54.08104705810547,-4.742907524108887,,,,,,0
+891085000903,"Port St Mary Promenade",,54.078025817871094,-4.739837646484375,,,,,,0
+891085000905,"Port St Mary, Carrick Apartments",,54.07560348510742,-4.737593173980713,,,,,,0
+891085000907,"Port St Mary, Park Road",,54.07272720336914,-4.739404678344727,,,,,,0
+891085000908,"Port St Mary, Queens Road",,54.07166290283203,-4.738598823547363,,,,,,0
+891085000912,"Port St Mary, Beach Road, Creggan Lea",,54.07969284057617,-4.738592147827148,,,,,,0
+891085011806,"Gansey, Beach Road, Water Edge Northbound",,54.082942962646484,-4.7300519943237305,,,,,,0
+891085011804,"Gansey, Shore Road, Avondale northbound",,54.084372,-4.726503,,,,,,0
+891085011802,"Gansey, Shore Hotel",,54.085018157958984,-4.720902919769287,,,,,,0
+891085000128,"Douglas, Ridgeway Street, City Hall",,54.148555755615234,-4.480565547943115,,,,,,0
+891085000129,"Douglas, Prospect Hill, Prospect Hotel",,54.150264739990234,-4.4810566902160645,,,,,,0
+891085000130,"Douglas, Bucks Road, Tynwald Street",,54.151904,-4.4834,,,,,,0
+891085000131,"Douglas, Rosemount, Trinity Church",,54.154296,-4.484788,,,,,,0
+891085000132,"Douglas, Woodbourne Road, Woodbourne Square",,54.156774,-4.485907,,,,,,0
+891085000133,"Douglas, Woodbourne Road, Albany Lane",,54.15803146362305,-4.486828804016113,,,,,,0
+891085000134,"Douglas, Woodbourne Road, Murrays Road",,54.15962219238281,-4.486166954040527,,,,,,0
+891085000127,"Douglas, Ballaquayle Road, St Ninians School",,54.164649963378906,-4.483758926391602,,,,,,0
+891085003102,"Douglas, Willaston, 1st stop",,54.16836166381836,-4.486417293548584,,,,,,0
+891085003104,"Douglas, Willaston,  Keppel Road, Mannin Road",,54.171722412109375,-4.484738826751709,,,,,,0
+891085003105,"Douglas, Willaston, Keppel Road No 47",,54.17311477661133,-4.4843010902404785,,,,,,0
+891085003106,"Douglas, Willaston, Keppel Road No 95",,54.175113677978516,-4.481617450714111,,,,,,0
+891085000135,"Douglas, Woodbourne Road, St Mary's RC School",,54.16258239746094,-4.483700275421143,,,,,,0
+891085003103,"Douglas, Willaston, shops shelter",,54.17080307006836,-4.48520040512085,,,,,,0
+891085011801,"Gansey, opposite Shore Hotel",,54.08494186401367,-4.720634460449219,,,,,,0
+891085011803,"Gansey, Shore Road, Avondale southbound",,54.08411407470703,-4.727321147918701,,,,,,0
+891085011805,"Gansey, Beach Road, Water Edge Southbound",,54.08302307128906,-4.729666233062744,,,,,,0
+891085000913,"Port St Mary, Beach Road, Creggan Lea junction",,54.079742431640625,-4.738323211669922,,,,,,0
+891085013113,"Cronkbourne Village, Beechwood Rise",,54.16960525512695,-4.49365234375,,,,,,0
+891085013107,"Cronkbourne Village, No 12",,54.1689567565918,-4.497377872467041,,,,,,0
+891085001803,"Nobles Hospital South Drive, towards Douglas",,54.17094039916992,-4.506947040557861,,,,,,0
+891085013702,"Ballachrink Drive southbound, shop",,54.178454,-4.450111,,,,,,0
+891085013703,"Ballachrink Drive southbound/Snaefell Crescent",,54.179983,-4.450638,,,,,,0
+891085013704,"Ballachrink southbound, School Road",,54.179117,-4.452958,,,,,,0
+891085013705,"Ballachrink southbound, School shelter",,54.17756,-4.453458,,,,,,0
+891085013818,"Onchan, No 9 Windermere Drive",,54.17750549316406,-4.447369575500488,,,,,,0
+891085013815,"Onchan, No 20 Windermere Drive",,54.176475524902344,-4.446167945861816,,,,,,0
+891085013814,"Onchan, No 55 Windermere Drive",,54.1759147644043,-4.444408416748047,,,,,,0
+891085013812,"Onchan, Groudle Road/Windermere Drive junction",,54.174720764160156,-4.444570541381836,,,,,,0
+891085013810,"Onchan, Groudle Road/Fairway Close",,54.17436599731445,-4.448653697967529,,,,,,0
+891085013806,"Onchan, No 27 Harbour Road",,54.17186737060547,-4.448813438415527,,,,,,0
+891085013804,"Onchan, Sunningdale Drive Eskdale junction",,54.170738220214844,-4.449025630950928,,,,,,0
+891085013802,"Onchan, No 25 Eskdale Road",,54.169471740722656,-4.449728488922119,,,,,,0
+891085003209,"Onchan, Whitebridge Road",,54.176734924316406,-4.451087474822998,,,,,,0
+891085013707,"Ballachrink Drive northbound, shop",,54.178454,-4.450111,,,,,,0
+891085010311,"Anagh Coar, Lheannag Park",,54.150895,-4.515806,,,,,,0
+891085010312,"Anagh Coar, Darragh, The Passage",,54.151023864746094,-4.5185041427612305,,,,,,0
+891085012101,"Farmhill, Stevenson Way, Springfield Grange",,54.15153884887695,-4.52151346206665,,,,,,0
+891085012103,"Farmhill, Stevenson Way, Farmhill Stores",,54.15519332885742,-4.52696418762207,,,,,,0
+891085001113,"Vicarage Road, Rose Hill Mews",,54.15667724609375,-4.529072284698486,,,,,,0
+891085001110,"IOM Business Park, Manx Telecom",,54.15422439575195,-4.533895969390869,,,,,,0
+891085001104,"Cooil Road, roundabout",,54.15281677246094,-4.535666465759277,,,,,,0
+891085001106,"Braddan, Cooil Road, B & Q",,54.15072250366211,-4.530592441558838,,,,,,0
+891085001102,"Douglas, Cooil Road, Close Fletcher",,54.147369384765625,-4.523244857788086,,,,,,0
+891085000160,"Douglas, Glencrutchery Road, Mountain View",,54.16679000854492,-4.480742931365967,,,,,,0
+891085000161,"Douglas, Glencrutchery Road, Greenfield Road",,54.16859817504883,-4.47681188583374,,,,,,0
+891085000162,"Douglas, Glencrutchery Road, Ian Cannell Court",,54.169207,-4.474904,,,,,,0
+891085000163,"Douglas, Glencrutchery Road, Second Avenue",,54.17060852050781,-4.471333026885986,,,,,,0
+891085000164,"Douglas, Glencrutchery Road, Third Avenue",,54.17100524902344,-4.470337390899658,,,,,,0
+891085003201,"Onchan, Governors Road, Blackberry Lane",,54.172237396240234,-4.464901447296143,,,,,,0
+891085003203,"Onchan, Wybourne Drive junction",,54.17279815673828,-4.461349964141846,,,,,,0
+891085003205,"Onchan, Queens Road",,54.17319107055664,-4.458990097045898,,,,,,0
+891085003207,"Onchan, Manx Arms Hotel",,54.17425537109375,-4.455642223358154,,,,,,0
+891085003301,"Whitebridge, Ballakilmartin",,54.18360900878906,-4.4426398277282715,,,,,,0
+891085003303,"Whitebridge, Begoade Road",,54.186851501464844,-4.439085483551025,,,,,,0
+891085003305,"Whitebridge Straight, Fun Barn",,54.19145202636719,-4.430872440338135,,,,,,0
+891085003307,"Baldrine, Liverpool Arms",,54.193754,-4.425393,,,,,,0
+891085003309,"Baldrine, Ballamenagh Road",,54.19751739501953,-4.4173054695129395,,,,,,0
+891085003311,"Baldrine, Methodist Hall",,54.20176315307617,-4.412528038024902,,,,,,0
+891085003313,"Baldrine, The Cresent",,54.20509719848633,-4.410408020019531,,,,,,0
+891085003315,"Baldrine, Ballagawne Road junction",,54.2071533203125,-4.406800270080566,,,,,,0
+891085003317,"Ballabeg Farm, Lonan",,54.21278762817383,-4.406729698181152,,,,,,0
+891085003319,"Ballacannell, Church Road",,54.21601104736328,-4.40439510345459,,,,,,0
+891085003401,"Fairy Cottage, Pinfold Hill Thornton",,54.218666076660156,-4.400756359100342,,,,,,0
+891085003403,"Fairy Cottage shelter",,54.22108840942383,-4.400123596191406,,,,,,0
+891085003405,"South Cape, Cairn View",,54.22473907470703,-4.395740032196045,,,,,,0
+891085003407,"South Cape, Ravenscliffe",,54.22597122192383,-4.397126197814941,,,,,,0
+891085003409,"Laxey, opposite Queens Hotel",,54.2290153503418,-4.403364181518555,,,,,,0
+891085003411,"Laxey Glen",,54.23120880126953,-4.406534671783447,,,,,,0
+891085003413,"Laxey, Main Road, Mines Road junction",,54.23328399658203,-4.406145095825195,,,,,,0
+891085003415,"Laxey, Ard Reayrt junction",,54.23184585571289,-4.402469158172607,,,,,,0
+891085003501,"Minorca",,54.230712890625,-4.396724224090576,,,,,,0
+891085003503,"Minorca, Abbey Cottage, entrance",,54.22873306274414,-4.387691497802734,,,,,,0
+891085003607,"Bulgham shelter",,54.242156982421875,-4.373429775238037,,,,,,0
+891085003601,"Dhoon Glen, car park",,54.24992370605469,-4.377477645874023,,,,,,0
+891085003603,"Dhoon Quarry",,54.258365631103516,-4.372054576873779,,,,,,0
+891085003711,"Glen Mona, Ballasholague Farm",,54.2669792175293,-4.377708911895752,,,,,,0
+891085003703,"Glen Mona, Ballagorry Drive",,54.27152633666992,-4.377042293548584,,,,,,0
+891085003705,"Glen Mona, Dhoon School layby",,54.274227142333984,-4.376315116882324,,,,,,0
+891085003707,"Corony Bridge shelter",,54.279842376708984,-4.37594747543335,,,,,,0
+891085003713,"Corony, Cardle Vooar entrance",,54.28160858154297,-4.3734965324401855,,,,,,0
+891085003717,"Corony, Ballaglass Farm",,54.285423278808594,-4.371159076690674,,,,,,0
+891085003715,"Hibernia, opposite Margher E Kew",,54.289642333984375,-4.369997024536133,,,,,,0
+891085003709,"Hibernia shelter",,54.293338775634766,-4.367981433868408,,,,,,0
+891085003901,"Maughold, Rest and be Thankful",,54.30030822753906,-4.364404678344727,,,,,,0
+891085003903,"Maughold, Ballacartmel Cottages",,54.31124496459961,-4.3663153648376465,,,,,,0
+891085003809,"Ramsey, Ballure/Merrieweathers",,54.313968658447266,-4.37339448928833,,,,,,0
+891085003811,"Ramsey, Ballure Road/Ballure Grove",,54.3160514831543,-4.37445068359375,,,,,,0
+891085003813,"Ramsey, Stanley Mount West",,54.31791305541992,-4.375903606414795,,,,,,0
+891085003815,"Ramsey, No 56 Waterloo Road",,54.31905746459961,-4.377994537353516,,,,,,0
+891085003817,"Ramsey, MER Station",,54.32080078125,-4.381582736968994,,,,,,0
+891085003800,"Ramsey Bus Station",,54.320343,-4.38513,,,,,,0
+891085040105,"Ramsey Grammar School",,54.320865631103516,-4.392100811004639,,,,,,0
+891085003816,"Ramsey, Waterloo Road/Britannia",,54.320716857910156,-4.380899906158447,,,,,,0
+891085003814,"Ramsey, Waterloo Road, Cummal Mooar",,54.31880569458008,-4.37725830078125,,,,,,0
+891085003812,"Ramsey, Ballure Road/Beach Apartments",,54.31654357910156,-4.374484062194824,,,,,,0
+891085003810,"Ramsey, Ballure",,54.313720703125,-4.373470783233643,,,,,,0
+891085003906,"Maughold, Folieu, Lewaigue junction",,54.31034851074219,-4.364633083343506,,,,,,0
+891085003912,"Maughold, Dreemskerry Road junction",,54.30592727661133,-4.357636451721191,,,,,,0
+891085003902,"Maughold, Rest and be Thankful, Primrose Lodge",,54.3005256652832,-4.363559722900391,,,,,,0
+891085003716,"Hibernia, Margher E Kew",,54.28989791870117,-4.370110988616943,,,,,,0
+891085003718,"Corony, Ballaglass Farm entrance",,54.285640716552734,-4.3708882331848145,,,,,,0
+891085003714,"Corony, Cardle Vooar",,54.28181457519531,-4.373587608337402,,,,,,0
+891085003708,"Corony Bridge",,54.27962875366211,-4.376026630401611,,,,,,0
+891085003706,"Glen Mona, Dhoon School",,54.27410125732422,-4.37663459777832,,,,,,0
+891085003702,"Glen Mona, parish hall",,54.27149200439453,-4.376885890960693,,,,,,0
+891085003604,"Brown Crossing",,54.25935363769531,-4.371910572052002,,,,,,0
+891085003602,"Dhoon Glen, café",,54.24985122680664,-4.377156734466553,,,,,,0
+891085003608,"Bulgham, MER",,54.242149353027344,-4.3732709884643555,,,,,,0
+891085003504,"Minorca, Abbey Cottage",,54.228851318359375,-4.387659072875977,,,,,,0
+891085003502,"Minorca shelter",,54.23072052001953,-4.396501541137695,,,,,,0
+891085003418,"Laxey, Ard Reayrt",,54.23176956176758,-4.4021124839782715,,,,,,0
+891085003416,"Laxey, Captains Hill junction",,54.23386764526367,-4.405392169952393,,,,,,0
+891085003414,"Laxey, MER Station",,54.23240280151367,-4.405947685241699,,,,,,0
+891085003412,"Laxey, Commissioners Office",,54.23029327392578,-4.404644966125488,,,,,,0
+891085003410,"Laxey, Queens Hotel",,54.229148864746094,-4.4033427238464355,,,,,,0
+891085003408,"South Cape, Ravenscliffe shelter",,54.226051330566406,-4.397064208984375,,,,,,0
+891085003406,"South Cape, Oakdene",,54.224552154541016,-4.395592212677002,,,,,,0
+891085003404,"Fairy Cottage",,54.221214294433594,-4.399409770965576,,,,,,0
+891085003402,"Fairy Cottage, Pinfold Hill",,54.21847915649414,-4.401163578033447,,,,,,0
+891085003320,"Ballacannell",,54.21598815917969,-4.404183864593506,,,,,,0
+891085003318,"Ballabeg Lonan, MER crossing, shelter",,54.2119026184082,-4.40670919418335,,,,,,0
+891085003316,"Baldrine, Ballagawne Road",,54.207115173339844,-4.407136917114258,,,,,,0
+891085003314,"Baldrine, Garwick",,54.20432662963867,-4.4101338386535645,,,,,,0
+891085003312,"Baldrine, Baldrine Park",,54.20028305053711,-4.413971900939941,,,,,,0
+891085003310,"Baldrine, Ballamenagh Road junction",,54.197540283203125,-4.417765140533447,,,,,,0
+891085003308,"Baldrine, Liverpool Arms, Groudle Road junction",,54.19404602050781,-4.424032688140869,,,,,,0
+891085003306,"Whitebridge, Fun Barn",,54.1904296875,-4.432405471801758,,,,,,0
+891085003304,"Whitebridge, Bibaloe Road",,54.18665313720703,-4.438991546630859,,,,,,0
+891085003302,"Whitebridge Hill, picnic area",,54.18510818481445,-4.44057559967041,,,,,,0
+891085003210,"Onchan, Methodist Church",,54.17559814453125,-4.452900409698486,,,,,,0
+891085003208,"Onchan, Bonds Layby",,54.17424392700195,-4.455292701721191,,,,,,0
+891085003206,"Onchan, Queens Road layby",,54.173160552978516,-4.458560943603516,,,,,,0
+891085003204,"Onchan, opposite Wybourne Drive",,54.17278289794922,-4.460762023925781,,,,,,0
+891085003202,"Onchan, Governors Road, Blackberry Lane junction",,54.17213439941406,-4.464858531951904,,,,,,0
+891085020157,"Douglas, Glencrutchery Road, Glenside",,54.17091751098633,-4.470207214355469,,,,,,0
+891085020156,"Douglas, Glencrutchery Road, football club",,54.169288635253906,-4.474384784698486,,,,,,0
+891085020155,"Douglas, Ian Cannel Court shelter",,54.169332,-4.474455,,,,,,0
+891085020154,"Douglas, Glencrutchery Road, Grandstand",,54.16843032836914,-4.476690292358398,,,,,,0
+891085020153,"Douglas, Glencrutchery Road, Nobles Park",,54.16670608520508,-4.480544090270996,,,,,,0
+891085000153,"Douglas, York Road, No 1",,54.16056442260742,-4.48253870010376,,,,,,0
+891085020121,"Douglas, Ballaquayle Road, Stanley Terrace",,54.159053802490234,-4.480124473571777,,,,,,0
+891085000151,"Douglas, Victoria Road, Stanley Place",,54.15873336791992,-4.478699684143066,,,,,,0
+891085000152,"Douglas, Victoria Road, Princes Road",,54.160404205322266,-4.477537155151367,,,,,,0
+891085000156,"Douglas, Victoria Road, Victoria Crescent",,54.16300964355469,-4.476051330566406,,,,,,0
+891085000158,"Douglas, Victoria Road, Poplar Road",,54.16472625732422,-4.473495006561279,,,,,,0
+891085000159,"Douglas, Victoria Road, Tesco",,54.16692352294922,-4.470607757568359,,,,,,0
+891085000166,"Douglas, Victoria Road, Summerhill View",,54.170780181884766,-4.469077110290527,,,,,,0
+891085013708,"Ballachrink Drive northbound, Snaefell Crescent",,54.18003,-4.45065,,,,,,0
+891085013709,"Ballachrink northbound, School Road",,54.179117,-4.452958,,,,,,0
+891085013710,"Ballachrink northbound, School shelter",,54.17756,-4.453458,,,,,,0
+891085020150,"Douglas, Victoria Road, glen entrance",,54.17097473144531,-4.468982696533203,,,,,,0
+891085020149,"Douglas, Victoria Road, Centre House",,54.16637420654297,-4.471000671386719,,,,,,0
+891085020148,"Douglas, Victoria Road, Palace Road junction",,54.16499328613281,-4.4729814529418945,,,,,,0
+891085020147,"Douglas, Victoria Road, Mona Drive junction",,54.16328430175781,-4.475174427032471,,,,,,0
+891085020151,"Douglas, Victoria Road, Woodville Terrace",,54.159576416015625,-4.4777750968933105,,,,,,0
+891085020152,"Douglas, Victoria Road, Elysse Court",,54.15858459472656,-4.478862762451172,,,,,,0
+891085000125,"Douglas, Ballaquayle Road, Rose Garden",,54.158592224121094,-4.47983980178833,,,,,,0
+891085020145,"Douglas, York Road, Waverley Court shelter",,54.16038131713867,-4.482292652130127,,,,,,0
+891085003605,"Ballaragh Village, northbound",,54.23991775512695,-4.3803277015686035,,,,,,0
+891085003606,"Ballaragh Village, southbound",,54.24046325683594,-4.3794426918029785,,,,,,0
+891085003118,"Douglas, Ballanard Road, No 59",,54.169551849365234,-4.488349914550781,,,,,,0
+891085014801,"Mountain Road, Bungalow MER Station",,54.25155258178711,-4.4632439613342285,,,,,,0
+891085003820,"Ramsey, Bowring Road, Station Road junction",,54.323055267333984,-4.387746334075928,,,,,,0
+891085003822,"Ramsey, Bowring Road, Riverside",,54.32468032836914,-4.388102054595947,,,,,,0
+891085003860,"Ramsey, North Shore Road, Mooragh Park shelter",,54.32601547241211,-4.384047508239746,,,,,,0
+891085003861,"Ramsey Swimming Pool",,54.32420349121094,-4.381621360778809,,,,,,0
+891085003880,"Ramsey, Mooragh Promenade, Premier Road",,54.328121185302734,-4.382579803466797,,,,,,0
+891085003863,"Ramsey, Mooragh Promenade, Vollan Cresent",,54.33565139770508,-4.384093761444092,,,,,,0
+891085003895,"Ramsey, Bride Road, Vollan Crescent",,54.33661651611328,-4.38790225982666,,,,,,0
+891085003831,"Ramsey, Bride Road, Ormly entrance",,54.335018157958984,-4.391476631164551,,,,,,0
+891085003869,"Ramsey, Clifton Park Drive, entrance",,54.33393859863281,-4.397012710571289,,,,,,0
+891085003870,"Ramsey, Clifton Park Drive, Croftbank",,54.333351135253906,-4.398166656494141,,,,,,0
+891085003871,"Ramsey, Clifton Park Drive, shelter",,54.33179473876953,-4.399978160858154,,,,,,0
+891085003872,"Ramsey, Clifton Park Drive, Kings Reach",,54.32975387573242,-4.400566101074219,,,,,,0
+891085003829,"Ramsey, Jurby Road, Kings Reach shelter",,54.32938766479492,-4.399696350097656,,,,,,0
+891085003876,"Ramsey, Richmond Road, Richmond Grove",,54.32945251464844,-4.395693778991699,,,,,,0
+891085003825,"Ramsey, Bowring Road, Hospital shelter",,54.328800201416016,-4.3915534019470215,,,,,,0
+891085003823,"Ramsey, Bowring Road, Windsor Road",,54.32610321044922,-4.389420032501221,,,,,,0
+891085003821,"Ramsey, Bowring Road, Stone Bridge shelter",,54.32472610473633,-4.3884100914001465,,,,,,0
+891085003827,"Ramsey, Bowring Road, Derby Road junction",,54.323577880859375,-4.387942790985107,,,,,,0
+891085003841,"Ramsey, May Hill, The Oaks",,54.31850814819336,-4.382641315460205,,,,,,0
+891085014802,"Mountain Road, Bungalow footbridge",,54.251094818115234,-4.463007926940918,,,,,,0
+891085000102,"Douglas, Lord Street bus interchange",,54.148333,-4.478056,,,,,,0
+891085000113,"Douglas, Peel Road, Pulrose Road",,54.15201187133789,-4.499353885650635,,,,,,0
+891085000114,"Douglas, Peel Road, Quarter Bridge shelter",,54.154794,-4.501209,,,,,,0
+891085001201,"Cooil Cross Roads, towards Foxdale",,54.154083251953125,-4.539552688598633,,,,,,0
+891085001301,"Braaid, timber shelter",,54.15447998046875,-4.574136734008789,,,,,,0
+891085001405,"Garth crossroads, towards Foxdale",,54.15992736816406,-4.587625980377197,,,,,,0
+891085001403,"Dreemlang",,54.167327880859375,-4.606230735778809,,,,,,0
+891085001401,"Eairy Dam, towards Foxdale",,54.167293548583984,-4.609748363494873,,,,,,0
+891085001505,"Higher Foxdale, Ard Jerkyl, opposite car park",,54.169700622558594,-4.617220878601074,,,,,,0
+891085001507,"Higher Foxdale, opposite Springfield Rise",,54.169097900390625,-4.631152629852295,,,,,,0
+891085001501,"Higher Foxdale, Industrial Estate",,54.169281005859375,-4.635127067565918,,,,,,0
+891085001503,"Higher Foxdale, Baltic Hotel",,54.170833587646484,-4.639583587646484,,,,,,0
+891085011501,"Lower Foxdale, Ballamoar Farm Lane",,54.17766571044922,-4.6425299644470215,,,,,,0
+891085011503,"Lower Foxdale, Old Mill",,54.18145751953125,-4.641542911529541,,,,,,0
+891085002320,"St Johns, Foxdale Road, Opposite Ballahig Farm",,54.19108963012695,-4.638411045074463,,,,,,0
+891085002321,"St Johns, Foxdale Road, opposite Pine View",,54.19357681274414,-4.637088775634766,,,,,,0
+891085002305,"St Johns, DEFA offices",,54.19664001464844,-4.637768268585205,,,,,,0
+891085002307,"St Johns, opposite Football Club",,54.199378967285156,-4.641217231750488,,,,,,0
+891085002323,"St Johns, Patrick Road, Slieau Whallian Road",,54.200594,-4.6432365,,,,,,0
+891085007103,"Patrick, Barnell Lane",,54.20533752441406,-4.693974018096924,,,,,,0
+891085007106,"Patrick, Knockaloe Beg Lane",,54.208300,-4.6942798,,,,,,0
+891085007102,"Raggart Layby",,54.211307525634766,-4.694772720336914,,,,,,0
+891085002436,"Peel, Glenfaba Road",,54.21751022338867,-4.69732141494751,,,,,,0
+891085002438,"Peel, North View, Ballaterson Road",,54.22053527832031,-4.694942951202393,,,,,,0
+891085002427,"Peel, Albany Road, Tynwald Road junction",,54.220645904541016,-4.690625190734863,,,,,,0
+891085002414,"Peel, Town Hall shelter towards Douglas",,54.222415924072266,-4.69093132019043,,,,,,0
+891085002410,"Peel, Albany Road, garage",,54.2218132019043,-4.689548015594482,,,,,,0
+891085002408,"Peel, Tynwald Road, Albany Road",,54.22001266479492,-4.690481662750244,,,,,,0
+891085002406,"Peel, Douglas Road, Tynwald Close shelter",,54.21916580200195,-4.688942909240723,,,,,,0
+891085002403,"Peel, Douglas Road, Football Club",,54.2172737121582,-4.6859540939331055,,,,,,0
+891085002402,"Ballawyllin",,54.210968017578125,-4.673377513885498,,,,,,0
+891085002316,"St Johns, opposite Tynwald Inn",,54.203407287597656,-4.6434125900268555,,,,,,0
+891085002312,"St Johns, Station Road, school entrance",,54.20145797729492,-4.6420979499816895,,,,,,0
+891085002310,"St Johns, Football Club entrance",,54.199398040771484,-4.6410346031188965,,,,,,0
+891085002308,"St Johns, DEFA, sawmill",,54.1956901550293,-4.636928081512451,,,,,,0
+891085002319,"St Johns, Foxdale Road, Ballahig Farm entrance",,54.19122314453125,-4.638095855712891,,,,,,0
+891085011504,"Lower Foxdale, Hamilton close shelter",,54.181278228759766,-4.641401767730713,,,,,,0
+891085011502,"Lower Foxdale, Ballamoar Cottage",,54.17734146118164,-4.642292022705078,,,,,,0
+891085001504,"Higher Foxdale, Main Road shelter",,54.17112731933594,-4.639586448669434,,,,,,0
+891085001502,"Higher Foxdale, school",,54.169410705566406,-4.63511848449707,,,,,,0
+891085001508,"Higher Foxdale, Springfield Rise",,54.1692008972168,-4.6314377784729,,,,,,0
+891085001506,"Higher Foxdale, Ard Jerkyl, car park exit",,54.16973876953125,-4.616843223571777,,,,,,0
+891085001402,"Eairy Dam, towards Douglas",,54.167213439941406,-4.610508918762207,,,,,,0
+891085001404,"Dreemlang, Gorselands",,54.16745376586914,-4.60638952255249,,,,,,0
+891085001406,"Garth crossroads, towards Douglas",,54.159645080566406,-4.587465286254883,,,,,,0
+891085001302,"Braaid, concrete shelter",,54.154579162597656,-4.5741658210754395,,,,,,0
+891085001202,"Cooil Cross Roads, towards Douglas",,54.15415573120117,-4.539464473724365,,,,,,0
+891085020102,"Douglas, Peel Road, Mile End Court",,54.152557373046875,-4.499577522277832,,,,,,0
+891085013001,"White Hoe, junction",,54.1429328918457,-4.504718780517578,,,,,,0
+891085001108,"Spring Valley Industrial Estate, Unit 7",,54.15077590942383,-4.526416301727295,,,,,,0
+891085001109,"Spring Valley Industrial Estate, B & Q",,54.151206970214844,-4.5289130210876465,,,,,,0
+891085002309,"St Johns, Station Road, opposite school",,54.20145797729492,-4.642277717590332,,,,,,0
+891085002317,"St Johns, Tynwald Inn car park",,54.20331573486328,-4.64391565322876,,,,,,0
+891085002401,"Ballawyllin entrance",,54.21047592163086,-4.672713756561279,,,,,,0
+891085002405,"Peel, Douglas Road, Tynwald Close",,54.21919250488281,-4.689235687255859,,,,,,0
+891085002306,"St Johns,The Hope, Curragh Road",,54.195518493652344,-4.635869026184082,,,,,,0
+891085002311,"St Johns, Ballacraine, opposite old smithy",,54.20314407348633,-4.63129997253418,,,,,,0
+891085002313,"St Johns, Balladoyne",,54.20326614379883,-4.637300968170166,,,,,,0
+891085002315,"St Johns, Bunscooil layby",,54.203083003869644,-4.6414483830145175,,,,,,0
+891085040103,"Queen Elizabeth II High School",,54.217132568359375,-4.685142993927002,,,,,,0
+891085001607,"Saddlestone, Meadow Crescent",,54.15807342529297,-4.515046119689941,,,,,,0
+891085001605,"Saddlestone, Ballaughton Manor Hill",,54.15732192993164,-4.513444423675537,,,,,,0
+891085001603,"Saddlestone, Ballaughton Manor Hill, Copse Hill",,54.15650939941406,-4.508346080780029,,,,,,0
+891085001601,"Saddlestone, Saddle Road",,54.15639114379883,-4.507627964019775,,,,,,0
+891085007401,"Niarbyl",,54.16429901123047,-4.738968849182129,,,,,,0
+891085007302,"Dalby, Niarbyl Road junction",,54.16876220703125,-4.729524612426758,,,,,,0
+891085007206,"Glen Maye, Ballachrink Farm",,54.18194580078125,-4.707554340362549,,,,,,0
+891085007204,"Glen Maye shelter",,54.18482971191406,-4.704283714294434,,,,,,0
+891085007201,"Glen Maye, Gordon",,54.193294525146484,-4.701288223266602,,,,,,0
+891085007108,"Patrick, Old Hall",,54.203561,-4.6947686,,,,,,0
+891085000148,"Douglas, Circular Road, No 17",,54.15055847167969,-4.483728408813477,,,,,,0
+891085000136,"Douglas, Westmoreland Road, Hillside Terrace",,54.15099334716797,-4.4871649742126465,,,,,,0
+891085000137,"Douglas, Westmoreland Road, Health Centre",,54.151702880859375,-4.4895501136779785,,,,,,0
+891085000168,"Douglas, Westmoreland Road, Ballakermeen Road",,54.15320587158203,-4.488790512084961,,,,,,0
+891085000138,"Douglas, Mount Bradda",,54.155205,-4.488032,,,,,,0
+891085000139,"Douglas, Selborne Road",,54.15598678588867,-4.489974498748779,,,,,,0
+891085020166,"Douglas, Alexander Drive, Hillcrest",,54.15687942504883,-4.494119167327881,,,,,,0
+891085001602,"Saddlestone, Ballaughton Lane",,54.15623474121094,-4.509023189544678,,,,,,0
+891085001604,"Ballaughton Manor Hill, Cooil Farvane",,54.15700912475586,-4.5128679275512695,,,,,,0
+891085001606,"Saddlestone, No 6 Meadow Crescent",,54.15800094604492,-4.515212535858154,,,,,,0
+891085001111,"IOM Business Park, Barleyfield Road",,54.1531867980957,-4.532063961029053,,,,,,0
+891085001112,"IOM Business Park, Haldane Fisher",,54.15151596069336,-4.53104305267334,,,,,,0
+891085000140,"Douglas, Westminster Terrace",,54.15574264526367,-4.492706298828125,,,,,,0
+891085000141,"Douglas, Westminster Drive",,54.15532684326172,-4.493845462799072,,,,,,0
+891085040101,"Ballakermeen High School",,54.15351867675781,-4.494099140167236,,,,,,0
+891085020141,"Douglas, No 11 Mount Bradda",,54.1551628112793,-4.487853527069092,,,,,,0
+891085020167,"Douglas, Westmoreland Road, Kensington Road",,54.15332794189453,-4.488639831542969,,,,,,0
+891085020142,"Douglas, Westmoreland Road, Thie Clag",,54.151695251464844,-4.4891276359558105,,,,,,0
+891085020143,"Douglas, Westmoreland Road, apartments",,54.150997161865234,-4.4867658615112305,,,,,,0
+891085002435,"Peel, Glenfaba Road, Close Cronk",,54.21762466430664,-4.6971116065979,,,,,,0
+891085007101,"Raggart, glen entrance",,54.211429595947266,-4.695199489593506,,,,,,0
+891085007105,"Patrick, opposite Knockaloe Beg Lane",,54.208339,-4.6941596,,,,,,0
+891085007104,"Patrick, opposite Barnell Lane",,54.20506286621094,-4.694328308105469,,,,,,0
+891085002324,"St Johns, Patrick Road",,54.200797,-4.6438474,,,,,,0
+891085020140,"Douglas, Selborne Road shelter",,54.156089782714844,-4.489354610443115,,,,,,0
+891085040125,"Peel Clothworkers, Pool entrance",,54.221348,-4.683918,,,,,,0
+891085040124,"St Johns Primary School",,54.201786041259766,-4.641101837158203,,,,,,0
+891085002431,"Peel, Derby Road, Tesco",,54.22165298461914,-4.686838150024414,,,,,,0
+891085007107,"Patrick, Shenvalley Farm lane",,54.202155,-4.6952905,,,,,,0
+891085007203,"Glen Maye",,54.18464279174805,-4.704066276550293,,,,,,0
+891085007205,"Glen Maye, Shilley Marrey",,54.18152618408203,-4.708862781524658,,,,,,0
+891085007301,"Dalby",,54.173011779785156,-4.7262282371521,,,,,,0
+891085007202,"Glen Maye, Gordon House",,54.1929931640625,-4.701218128204346,,,,,,0
+891085013002,"White Hoe shelter",,54.14329528808594,-4.504213333129883,,,,,,0
+891085001703,"Braddan School",,54.16535949707031,-4.5065412521362305,,,,,,0
+891085001808,"Nobles Hospital South Drive, towards Peel",,54.17112350463867,-4.507105827331543,,,,,,0
+891085001810,"Nobles Hospital main entrance, towards Peel",,54.17246627807617,-4.506241321563721,,,,,,0
+891085001805,"Strang, Cronk Grianagh",,54.17104721069336,-4.510153293609619,,,,,,0
+891085001807,"Strang crossroads, Strang Close",,54.17268371582031,-4.511416435241699,,,,,,0
+891085001809,"Strang Road, Ballanawin entrance",,54.171636,-4.515341,,,,,,0
+891085001901,"Union Mills, opposite Post Office",,54.16975021362305,-4.523777484893799,,,,,,0
+891085001903,"Union Mills, Trollaby Lane",,54.170570373535156,-4.528122425079346,,,,,,0
+891085001909,"Union Mills, Ballahutchin, Ballahutchin House",,54.17144775390625,-4.53587532043457,,,,,,0
+891085002001,"Glen Vine, Glen Lough entrance",,54.172523498535156,-4.542639255523682,,,,,,0
+891085002003,"Glen Vine, Ballagarey",,54.17386245727539,-4.5492167472839355,,,,,,0
+891085002005,"Glen Vine, Glen Darragh Road",,54.1766242980957,-4.553878307342529,,,,,,0
+891085002007,"Glen Vine, Glen Vine Road",,54.17772674560547,-4.555504322052002,,,,,,0
+891085002108,"Crosby, Ballavitchell Road",,54.18647766113281,-4.572297096252441,,,,,,0
+891085002103,"Crosby crossroads, Co-Op",,54.18342208862305,-4.565248012542725,,,,,,0
+891085002107,"Crosby, Ballaglonney Farm",,54.18626022338867,-4.57197380065918,,,,,,0
+891085002201,"Greeba, Highlander, TT shelter",,54.19033432006836,-4.581795692443848,,,,,,0
+891085002203,"Greeba, Appledene",,54.193397521972656,-4.594480514526367,,,,,,0
+891085002205,"Greeba Bridge, Douglas Road",,54.196250915527344,-4.604527473449707,,,,,,0
+891085002207,"Greeba Bridge, Ballachurry Road",,54.196937561035156,-4.607983589172363,,,,,,0
+891085002209,"Greeba, Kerrowgarrow Road",,54.19770050048828,-4.6155171394348145,,,,,,0
+891085002412,"Peel, Town Hall shelter towards Ramsey",,54.222412,-4.690813,,,,,,0
+891085002419,"Peel, Peveril Road, opposite Mount Morrison",,54.2242431640625,-4.68512487411499,,,,,,0
+891085002421,"Peel, Peveril Road, opposite Ballaquane Road",,54.224891662597656,-4.682991981506348,,,,,,0
+891085002423,"Peel, opposite Belle Vue",,54.22604751586914,-4.678935527801514,,,,,,0
+891085002434,"Peel, Reayrt Aalin, towards Douglas",,54.22677230834961,-4.676852703094482,,,,,,0
+891085002445,"Peel, Oak Road, McLeods Field",,54.226375579833984,-4.6755523681640625,,,,,,0
+891085002429,"Peel, Oak Road, Aspen Drive lane",,54.22260665893555,-4.6762189865112305,,,,,,0
+891085002430,"Peel, Oak Road, Magher Breek shelter",,54.22100067138672,-4.677494049072266,,,,,,0
+891085002433,"Peel, Derby Road, opposite campsite",,54.22086,-4.682763,,,,,,0
+891085002432,"Peel, Derby Road, No 44",,54.221588134765625,-4.68703556060791,,,,,,0
+891085002444,"Peel, Derby Road, campsite",,54.220914,-4.682963,,,,,,0
+891085002443,"Peel, Oak Road, opposite Close Beg",,54.2210693359375,-4.677649974822998,,,,,,0
+891085002446,"Peel, Oak Road, Cushag Drive",,54.222965240478516,-4.676519870758057,,,,,,0
+891085002437,"Peel, Oak Road, opposite McLeods Field",,54.22633361816406,-4.675676345825195,,,,,,0
+891085002507,"White Strand, Lhergydhoo Farm",,54.23258590698242,-4.660123825073242,,,,,,0
+891085002501,"Knocksharry Farm",,54.23856735229492,-4.647336006164551,,,,,,0
+891085002503,"Lynague",,54.2475471496582,-4.6396803855896,,,,,,0
+891085002505,"Ballaquine",,54.262664794921875,-4.618276596069336,,,,,,0
+891085004801,"Glen Mooar, Ballacarnane Mooar",,54.268802642822266,-4.6099853515625,,,,,,0
+891085004803,"Glen Mooar, Ballaleigh Road",,54.2730712890625,-4.600729465484619,,,,,,0
+891085002601,"Kirk Michael, Glen Wyllin campsite",,54.27918243408203,-4.590539455413818,,,,,,0
+891085002603,"Kirk Michael, BCC Cars",,54.28373718261719,-4.587242603302002,,,,,,0
+891085002605,"Kirk Michael, opposite Cannan Court",,54.286720275878906,-4.58344030380249,,,,,,0
+891085002609,"Kirk Michael, Pennybridge",,54.28974914550781,-4.580050468444824,,,,,,0
+891085012705,"Rhen Cullen, layby",,54.293312072753906,-4.577310085296631,,,,,,0
+891085012701,"Bishopscourt straight, northbound",,54.298851013183594,-4.57112455368042,,,,,,0
+891085012703,"Bishopscourt, Orrisdale Road junction",,54.30259323120117,-4.565282821655273,,,,,,0
+891085002701,"Ballaugh, Ballacobb",,54.30790328979492,-4.549947261810303,,,,,,0
+891085002703,"Ballaugh Village",,54.30996322631836,-4.541020393371582,,,,,,0
+891085002801,"Wildlife Park, towards Ramsey",,54.31615447998047,-4.512385368347168,,,,,,0
+891085002901,"Sulby Glen Hotel",,54.31938171386719,-4.4923996925354,,,,,,0
+891085002903,"Sulby Village shelter",,54.32221221923828,-4.480446815490723,,,,,,0
+891085002905,"Sulby, Ginger Hall",,54.321781,-4.471847,,,,,,0
+891085003001,"Kerrowmoar, northbound",,54.321327209472656,-4.465918064117432,,,,,,0
+891085003003,"Glen Duff, Bayr ny Harey junction",,54.32014083862305,-4.4467854499816895,,,,,,0
+891085003005,"Garey Road junction",,54.318647,-4.43511,,,,,,0
+891085003007,"Lezayre, Ballakilingan Farm",,54.319190979003906,-4.425360679626465,,,,,,0
+891085003801,"Ramsey, Lezayre Road, Glen Auldyn",,54.16988754272461,-4.4488654136657715,,,,,,0
+891085003891,"Ramsey, Lezayre Road, Faaie Wyllin",,54.321222,-4.401036,,,,,,0
+891085003803,"Ramsey, Bunscoill Rhumsaa",,54.32095718383789,-4.397881507873535,,,,,,0
+891085003805,"Ramsey, Lezayre Road, Kerrow Glass",,54.32071304321289,-4.3957061767578125,,,,,,0
+891085003807,"Ramsey, Bircham Avenue",,54.32205581665039,-4.389754772186279,,,,,,0
+891085003819,"Ramsey, Station Road",,54.32328796386719,-4.388885974884033,,,,,,0
+891085003833,"Ramsey, Andreas Road, Grove Museum, southbound",,54.332611083984375,-4.393770694732666,,,,,,0
+891085002407,"Peel, Queens Drive",,54.2199821472168,-4.691485404968262,,,,,,0
+891085002409,"Peel, Heathfield Drive",,54.22105407714844,-4.694852352142334,,,,,,0
+891085002411,"Peel, House of Manannan",,54.22209930419922,-4.697392463684082,,,,,,0
+891085002413,"Peel Promenade, Sailing Club",,54.22454833984375,-4.696924209594727,,,,,,0
+891085002415,"Peel Promenade, Stanley Road",,54.223995208740234,-4.692026138305664,,,,,,0
+891085002417,"Peel Promenade, Creg Malin",,54.224613189697266,-4.6896138191223145,,,,,,0
+891085001806,"Nobles Hospital, Hospice Isle of Man",,54.1734504699707,-4.5037407875061035,,,,,,0
+891085001812,"Nobles Hospital, Newlands shelter",,54.173916,-4.508567,,,,,,0
+891085001804,"Strang crossroads, Roundhouse",,54.172659,-4.511485,,,,,,0
+891085001704,"Braddan School, layby",,54.165348052978516,-4.506720066070557,,,,,,0
+891085001702,"Braddan Bridge, Douglas Road layby",,54.16040802001953,-4.504123210906982,,,,,,0
+891085002404,"Peel, Douglas Road, Q.E. II High School",,54.21687698364258,-4.685009002685547,,,,,,0
+891085002314,"St Johns, Tynwald Close",,54.20336151123047,-4.637558937072754,,,,,,0
+891085002318,"St Johns, Ballacraine, old smithy",,54.20309829711914,-4.631649494171143,,,,,,0
+891085002302,"St Johns, Ballacraine Farm",,54.202423095703125,-4.628100872039795,,,,,,0
+891085002210,"Greeba, Kerrowgarrow Road junction",,54.19758224487305,-4.615250110626221,,,,,,0
+891085002208,"Greeba Bridge, Hawthorn Inn",,54.197166442871094,-4.60970401763916,,,,,,0
+891085002206,"Greeba Bridge, Glen Dhoo",,54.195316314697266,-4.6029767990112305,,,,,,0
+891085002204,"Greeba, Greeba Castle",,54.19353485107422,-4.594717979431152,,,,,,0
+891085002202,"Greeba, Highlander",,54.190338134765625,-4.582108974456787,,,,,,0
+891085002106,"Crosby Hotel",,54.18477249145508,-4.568036079406738,,,,,,0
+891085002104,"Crosby crossroads, Eyreton Road",,54.183956146240234,-4.566099166870117,,,,,,0
+891085002102,"Crosby, Woodlea Villas",,54.182579040527344,-4.563177108764648,,,,,,0
+891085002008,"Glen Vine, Glen Vine Road shelter",,54.17800521850586,-4.55563497543335,,,,,,0
+891085002006,"Glen Vine, Ballabeg Grove",,54.17701721191406,-4.554191589355469,,,,,,0
+891085002004,"Glen Vine, Ballagarey shelter",,54.17455291748047,-4.550394535064697,,,,,,0
+891085002002,"Glen Vine, Glen Lough, Glen Lough Circle",,54.17280960083008,-4.5435791015625,,,,,,0
+891085001910,"Union Mills, Ballahutchin, Ballafreer Lane",,54.17148971557617,-4.535173416137695,,,,,,0
+891085001904,"Union Mills, Trollaby Lane junction",,54.17044448852539,-4.527462959289551,,,,,,0
+891085001902,"Union Mills, Post Office",,54.169864654541016,-4.5234785079956055,,,,,,0
+891085001802,"Strang Road, Ballanawin",,54.17164611816406,-4.515340328216553,,,,,,0
+891085003818,"Ramsey, Station Road shelter",,54.323150634765625,-4.388217926025391,,,,,,0
+891085003808,"Ramsey, Bircham Avenue southbound",,54.32209396362305,-4.389589309692383,,,,,,0
+891085003806,"Ramsey, Grammar School layby",,54.32075500488281,-4.392707824707031,,,,,,0
+891085003804,"Ramsey, opposite Bunscoill Rhumsaa",,54.32084655761719,-4.398104190826416,,,,,,0
+891085003892,"Ramsey, Lezayre Road, Milntown entrance",,54.32106018066406,-4.400467395782471,,,,,,0
+891085003802,"Ramsey, Lezayre Road, Glen Auldyn junction",,54.321311950683594,-4.404693126678467,,,,,,0
+891085003008,"Lezayre, War Memorial",,54.31910705566406,-4.423959732055664,,,,,,0
+891085003006,"Garey Road",,54.318443298339844,-4.434406280517578,,,,,,0
+891085003004,"Glen Duff, Highways Depot",,54.31964111328125,-4.444930076599121,,,,,,0
+891085003002,"Kerrowmoar, southbound",,54.32118225097656,-4.4655585289001465,,,,,,0
+891085002906,"Sulby, Ginger Hall car park",,54.321678161621094,-4.471563816070557,,,,,,0
+891085002904,"Sulby village",,54.32225799560547,-4.479796886444092,,,,,,0
+891085002902,"Sulby, Tholt-y-Will Road junction",,54.31934356689453,-4.492208957672119,,,,,,0
+891085002704,"Ballaugh Village, Raven",,54.30990219116211,-4.540708065032959,,,,,,0
+891085002702,"Ballaugh, Ballacobb entrance",,54.30797576904297,-4.5492424964904785,,,,,,0
+891085012704,"Bishopscourt, Orrisdale Road shelter",,54.302466,-4.565583,,,,,,0
+891085012702,"Bishopscourt straight, southbound",,54.298885345458984,-4.570781230926514,,,,,,0
+891085002610,"Kirk Michael, opposite Pennybridge",,54.2900390625,-4.579659938812256,,,,,,0
+891085002608,"Kirk Michael, Cannan Court",,54.28677749633789,-4.583103656768799,,,,,,0
+891085002606,"Kirk Michael, Methodist Church",,54.28365707397461,-4.587119102478027,,,,,,0
+891085002604,"Kirk Michael, school",,54.28170394897461,-4.587843894958496,,,,,,0
+891085002602,"Kirk Michael, Glen Wyllin",,54.27922821044922,-4.590183258056641,,,,,,0
+891085004804,"Glen Mooar, Ballaleigh Road junction",,54.272857666015625,-4.601397514343262,,,,,,0
+891085004802,"Glen Mooar, Ballacarnane Mooar junction",,54.268898010253906,-4.609618663787842,,,,,,0
+891085002506,"Ballaquine Farm",,54.26277160644531,-4.617976188659668,,,,,,0
+891085002504,"Lynague, Ballabooie Road",,54.24808120727539,-4.639321804046631,,,,,,0
+891085002502,"Knocksharry, Switchback Road junction",,54.238895416259766,-4.646742820739746,,,,,,0
+891085002508,"White Strand, Lhergydhoo Farm entrance",,54.23288345336914,-4.659832000732422,,,,,,0
+891085002802,"Wildlife Park, towards Peel",,54.316116,-4.512377,,,,,,0
+891085001701,"Braddan Bridge, Old Church layby",,54.161434173583984,-4.506462097167969,,,,,,0
+891085001905,"Union Mills, Ashlar Drive",,54.16730499267578,-4.517739772796631,,,,,,0
+891085001907,"Union Mills, Railway Hotel",,54.16876220703125,-4.522082328796387,,,,,,0
+891085001908,"Union Mills, Snugborough entrance",,54.16817092895508,-4.519240379333496,,,,,,0
+891085001706,"Braddan Bridge, opposite Braddan Church",,54.162383,-4.507333,,,,,,0
+891085002442,"Peel, Poortown Road, Oak Road junction",,54.220164,-4.678956,,,,,,0
+891085012501,"Laurel Bank layby",,54.217777252197266,-4.632986068725586,,,,,,0
+891085012503,"Glen Helen",,54.22578048706055,-4.617337703704834,,,,,,0
+891085012505,"Cronk-y-Voddy crossroads",,54.240468,-4.607657,,,,,,0
+891085012601,"Barregarrow Chapel",,54.26084518432617,-4.581393718719482,,,,,,0
+891085012603,"Westwood, bridge",,54.27537155151367,-4.579789638519287,,,,,,0
+891085012604,"Westwood",,54.27617645263672,-4.58056640625,,,,,,0
+891085012602,"Barregarrow, crossroads",,54.2601318359375,-4.581810474395752,,,,,,0
+891085012506,"Cronk-y-Voddy shelter",,54.240667,-4.607371,,,,,,0
+891085012504,"Glen Helen car park",,54.225829,-4.61697,,,,,,0
+891085012502,"Laurel Bank, forestry yard",,54.225948333740234,-4.6170854568481445,,,,,,0
+891085002441,"Peel, Poortown Road, opposite Oak Road junction",,54.219871520996094,-4.678224563598633,,,,,,0
+891085003824,"Ramsey, Bowring Road, Westfield Drive",,54.326171875,-4.3896708488464355,,,,,,0
+891085003828,"Ramsey, Jurby Road, Ash Grove",,54.32833480834961,-4.393353462219238,,,,,,0
+891085003830,"Ramsey, Jurby Road, Kings Reach",,54.329551,-4.401296,,,,,,0
+891085004601,"Jurby Road, Garey Road junction",,54.33008575439453,-4.4202189445495605,,,,,,0
+891085014601,"St Judes, Old School",,54.33950424194336,-4.460996150970459,,,,,,0
+891085014605,"St Judes, opposite Close-y-Kee",,54.34032440185547,-4.466689109802246,,,,,,0
+891085014603,"St Judes, telephone box",,54.3405647277832,-4.4709038734436035,,,,,,0
+891085004212,"Jurby East Road, Summerhill junction shelter",,54.36410903930664,-4.500499725341797,,,,,,0
+891085004210,"Jurby East Road, Bretney shelter",,54.363521575927734,-4.515720367431641,,,,,,0
+891085004208,"Jurby East Road, Commissioners Hall",,54.36276626586914,-4.522784233093262,,,,,,0
+891085004202,"Jurby, Threshold shelter",,54.357791900634766,-4.515428066253662,,,,,,0
+891085004302,"Sandygate, shelter",,54.346656799316406,-4.503591060638428,,,,,,0
+891085014606,"St Judes, crossroads",,54.34067916870117,-4.4701666831970215,,,,,,0
+891085002908,"Sulby, St Judes Road",,54.32304382324219,-4.473940849304199,,,,,,0
+891085002301,"St Johns, Ballacraine, Curragh Road",,54.20216369628906,-4.62789249420166,,,,,,0
+891085002303,"St Johns, The Hope",,54.195518493652344,-4.636134624481201,,,,,,0
+891085002418,"Peel, Peveril Road, Mount Morrison junction",,54.2243766784668,-4.685163974761963,,,,,,0
+891085002425,"Peel, Reayrt Aalin, towards Ramsey",,54.22718811035156,-4.675608158111572,,,,,,0
+891085040132,"Marown Primary School",,54.176544189453125,-4.5553131103515625,,,,,,0
+891085011301,"St Marks",,54.13496398925781,-4.608988285064697,,,,,,0
+891085011401,"Ballamodha, Shoulder Road",,54.15814971923828,-4.638327121734619,,,,,,0
+891085011403,"Ballamodha, Ronague Road",,54.146854400634766,-4.638545513153076,,,,,,0
+891085011405,"Ballamodha, St Marks Junction",,54.13108825683594,-4.638731479644775,,,,,,0
+891085011407,"Ballamodha, Phildraw Road junction",,54.12266540527344,-4.640752792358398,,,,,,0
+891085000415,"Silverdale Glen, entrance",,54.104820251464844,-4.642370223999023,,,,,,0
+891085000413,"Ballasalla, Cross Four Ways, quarry",,54.09626007080078,-4.646513938903809,,,,,,0
+891085000412,"Ballasalla, Abbey Church entrance",,54.098358154296875,-4.63227653503418,,,,,,0
+891085000625,"Castletown, School Hill",,54.078548431396484,-4.65743350982666,,,,,,0
+891085000627,"Castletown, By Pass",,54.07929611206055,-4.660943031311035,,,,,,0
+891085001005,"Sound",,54.063663482666016,-4.792457103729248,,,,,,0
+891085001006,"Cregneash village",,54.069844,-4.7683506,,,,,,0
+891085001004,"Cregneash, Car Park entrance",,54.07084274291992,-4.7659406661987305,,,,,,0
+891085001002,"Howe, chapel",,54.074546813964844,-4.756377220153809,,,,,,0
+891085000816,"Port Erin, Four Roads, Medical Centre",,54.083953857421875,-4.742748737335205,,,,,,0
+891085000411,"Ballasalla, Abbey Church",,54.09820556640625,-4.632380962371826,,,,,,0
+891085000416,"Silverdale Glen",,54.10509490966797,-4.641994953155518,,,,,,0
+891085011408,"Ballamodha, water trough",,54.1224365234375,-4.641026496887207,,,,,,0
+891085011406,"Ballamodha, Pottery",,54.12751770019531,-4.639771938323975,,,,,,0
+891085011404,"Ballamodha, Ronague Road junction",,54.14724349975586,-4.6383819580078125,,,,,,0
+891085011402,"Ballamodha, Shoulder Road junction",,54.157588958740234,-4.63826847076416,,,,,,0
+891085000714,"Ballabeg, Arbory School",,54.0988655090332,-4.685286521911621,,,,,,0
+891085000911,"Port St Mary, Plantation Road",,54.078426361083984,-4.741131782531738,,,,,,0
+891085001001,"Howe",,54.074790954589844,-4.754636764526367,,,,,,0
+891085001003,"Cregneash, phone box",,54.069759368896484,-4.768277645111084,,,,,,0
+891085003223,"Onchan, Summerhill Road",,54.169944763183594,-4.46053409576416,,,,,,0
+891085003225,"Onchan, Summerhill Road, Coutts",,54.17194747924805,-4.4583420753479,,,,,,0
+891085013204,"Groudle Village, entrance",,54.177426,-4.4263631,,,,,,0
+891085013310,"King Edward Road, Lag Birragh",,54.169995,-4.4342171,,,,,,0
+891085013308,"King Edward Road, Majestic Drive",,54.1707878112793,-4.4395952224731445,,,,,,0
+891085013306,"King Edward Road, Majestic Apartments",,54.17106246948242,-4.442281246185303,,,,,,0
+891085013304,"King Edward Road, Seacliffe Road entrance",,54.16957092285156,-4.4471964836120605,,,,,,0
+891085013302,"King Edward Road, Seacliffe Road exit",,54.16640853881836,-4.450942516326904,,,,,,0
+891085003224,"Onchan, Summerhill Road, Hague Drive",,54.17158889770508,-4.458522796630859,,,,,,0
+891085003222,"Onchan, Summerhill Road, Ridgeway Road",,54.169918060302734,-4.460300445556641,,,,,,0
+891085020135,"Douglas, Devonshire Road, Carnane",,54.1558952331543,-4.496139049530029,,,,,,0
+891085020136,"Douglas, Ballabrooie Drive shelter",,54.15501022338867,-4.499484062194824,,,,,,0
+891085020137,"Douglas, Ballabrooie Way no. 36",,54.15509033203125,-4.496036529541016,,,,,,0
+891085020138,"Douglas, Westminster Drive, junction",,54.155357360839844,-4.494004249572754,,,,,,0
+891085020139,"Douglas, Westminster Terrace, nursery",,54.15585708618164,-4.4923529624938965,,,,,,0
+891085003910,"Maughold, Port-e-Vullen, junction",,54.308189392089844,-4.349016189575195,,,,,,0
+891085003909,"Maughold Village",,54.29866409301758,-4.318412780761719,,,,,,0
+891085003908,"Maughold, Ballajora junction",,54.28772735595703,-4.337885856628418,,,,,,0
+891085003907,"Maughold, Dreemskerry Quarry",,54.292572021484375,-4.341798782348633,,,,,,0
+891085003904,"Maughold, Dreemskerry Road, Venture Centre",,54.30181884765625,-4.355344295501709,,,,,,0
+891085003710,"Hibernia",,54.29226303100586,-4.368753910064697,,,,,,0
+891085003712,"Glen Mona, opposite Ballasholague Farm",,54.266845703125,-4.377984523773193,,,,,,0
+891085003826,"Ramsey, Bowring Road, Hospital",,54.32878875732422,-4.391669273376465,,,,,,0
+891085003834,"Ramsey, Andreas Road, Grove Museum, northbound",,54.33220672607422,-4.39388370513916,,,,,,0
+891085003832,"Ramsey, Bride Road, opposite Ormly entrance",,54.335330963134766,-4.391223430633545,,,,,,0
+891085003838,"Ramsey, Bride Road, opposite Grand Island",,54.3372688293457,-4.386932373046875,,,,,,0
+891085004501,"Dogmills, shelter",,54.354469299316406,-4.384113311767578,,,,,,0
+891085004003,"Bride, Ayre View",,54.3807258605957,-4.391428470611572,,,,,,0
+891085004106,"Andreas, Crellin Grove shelter",,54.370697021484375,-4.440406322479248,,,,,,0
+891085004104,"Andreas School, shelter",,54.368202209472656,-4.442976951599121,,,,,,0
+891085004102,"Andreas, Ballasteen Farm entrance",,54.38801956176758,-4.425127029418945,,,,,,0
+891085004203,"Jurby industrial estate, motor museum",,54.35878372192383,-4.5220136642456055,,,,,,0
+891085014602,"St Judes, Old Parsonage",,54.34062194824219,-4.469263076782227,,,,,,0
+891085014604,"St Judes, Church",,54.33995819091797,-4.46382999420166,,,,,,0
+891085004602,"Jurby Road, Garey Road",,54.330142974853516,-4.420784950256348,,,,,,0
+891085004701,"Ballaugh Cronk, junction",,54.33236312866211,-4.552804946899414,,,,,,0
+891085004702,"Jurby West, crossroads",,54.3537483215332,-4.535069942474365,,,,,,0
+891085004213,"Jurby Prison, shelter",,54.35708999633789,-4.52927827835083,,,,,,0
+891085004204,"Jurby, parade ground shelter",,54.35981750488281,-4.521371364593506,,,,,,0
+891085003836,"Ramsey, Andreas Road, opposite Grest Home",,54.33638381958008,-4.395365238189697,,,,,,0
+891085004403,"Aust, opposite Lythwood",,54.34527587890625,-4.41156530380249,,,,,,0
+891085004401,"Regaby Crossroads, towards Andreas",,54.349342346191406,-4.414621829986572,,,,,,0
+891085004111,"Andreas Road, Andreas Church",,54.36522674560547,-4.438032150268555,,,,,,0
+891085004103,"Andreas, opposite School",,54.367706298828125,-4.444012641906738,,,,,,0
+891085004105,"Andreas, Crellin Grove",,54.37065887451172,-4.440633296966553,,,,,,0
+891085004107,"Smeale, Old Chapel",,54.387123107910156,-4.4462103843688965,,,,,,0
+891085004006,"Bride, Cemetary entrance",,54.3826904296875,-4.389854431152344,,,,,,0
+891085004008,"Bride Hill, shelter",,54.38054275512695,-4.389721870422363,,,,,,0
+891085004502,"Dogmills",,54.35426712036133,-4.383889675140381,,,,,,0
+891085003837,"Ramsey, Bride Road, Grand Island",,54.3370475769043,-4.387012958526611,,,,,,0
+891085004005,"Bride, Rectory",,54.382835388183594,-4.390044212341309,,,,,,0
+891085004108,"Smeale, junction",,54.38650894165039,-4.449554443359375,,,,,,0
+891085004402,"Regaby Crossroads, towards Ramsey",,54.34892272949219,-4.414949417114258,,,,,,0
+891085004404,"Aust, opposite Aust Vooar Farm",,54.34515380859375,-4.411248207092285,,,,,,0
+891085003835,"Ramsey, Andreas Road, Grest Home",,54.33673858642578,-4.3953752517700195,,,,,,0
+891085004004,"Bride, Ayre View entrance",,54.38090896606445,-4.3918657302856445,,,,,,0
+891085010203,"Pulrose, Heather Crescent No 1",,54.1485481262207,-4.508109092712402,,,,,,0
+891085010204,"Pulrose, Heather Crescent No 49",,54.147735595703125,-4.510375499725342,,,,,,0
+891085010207,"Pulrose, Hazel Crescent, Hazel Court",,54.148582458496094,-4.509728908538818,,,,,,0
+891085010209,"Pulrose, Alder Road towards Douglas",,54.149654388427734,-4.506106376647949,,,,,,0
+891085010210,"Pulrose Road, opposite Golf Club",,54.149776458740234,-4.503418922424316,,,,,,0
+891085020168,"Douglas, Pulrose Bridge, Bowl car park",,54.150577545166016,-4.499749660491943,,,,,,0
+891085010201,"Pulrose, Golf Club",,54.149688720703125,-4.503258228302002,,,,,,0
+891085010202,"Pulrose, Alder Road layby",,54.149452209472656,-4.506084442138672,,,,,,0
+891085010208,"Spring Valley, Springfield Road shelter",,54.15011215209961,-4.509088516235352,,,,,,0
+891085000211,"Douglas, Springfield Road, Springfield Avenue",,54.151100158691406,-4.51019811630249,,,,,,0
+891085000213,"Douglas, Springfield Road, towards Douglas",,54.151153564453125,-4.509929180145264,,,,,,0
+891085001608,"Vicarage Road, Kirby",,54.1595573425293,-4.5126953125,,,,,,0
+891085001711,"Saddle Road, Braddan Church",,54.16119384765625,-4.50770902633667,,,,,,0
+891085001712,"Saddle Road, Braddan Old Church",,54.16132736206055,-4.507387161254883,,,,,,0
+891085001609,"Vicarage Road, Vicarage Park",,54.15931701660156,-4.513246536254883,,,,,,0
+891085040121,"Douglas, Somerset Road, St Marys School",,54.16310119628906,-4.48466157913208,,,,,,0
+891085040102,"Bemahague School",,54.177849,-4.467168,,,,,,0
+891085000101,"Banks Circus, Steam Railway",,54.14750289916992,-4.486238479614258,,,,,,0
+891085000146,"Douglas, Somerset Square",,54.160987854003906,-4.486492156982422,,,,,,0
+891085012901,"Port Soderick, Ballacreggan",,54.135040283203125,-4.519406318664551,,,,,,0
+891085012903,"Port Soderick, Quines Hill",,54.1323127746582,-4.530912399291992,,,,,,0
+891085012904,"Port Soderick, Old Castletown Road shelter",,54.13015365600586,-4.538761138916016,,,,,,0
+891085012905,"Port Soderick, car park",,54.12459945678711,-4.533811092376709,,,,,,0
+891085012906,"Port Soderick, Marine Drive junction",,54.12809753417969,-4.523253440856934,,,,,,0
+891085012902,"Port Soderick, Ballacreggan junction",,54.13494873046875,-4.519861698150635,,,,,,0
