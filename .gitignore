@@ -7,5 +7,5 @@ build/
 bin/
 new_stops_requests.txt
 temp_stops.txt
-
+*.zip
 .claude/
